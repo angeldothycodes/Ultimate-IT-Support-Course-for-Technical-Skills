@@ -118,3 +118,13 @@ A really important thing with this is it also sets parameters like the required 
 <img width="886" height="543" alt="image" src="https://github.com/user-attachments/assets/08c463b3-dac7-48c1-9d61-faeabca9cd38" />
 
 
+
+**Few security tips when it comes to changing passwords**
+
+>> If we ever get someone call us remotely, say we're working on the service desk, it's probably your company's policy to verify the user before giving and changing passwords.
+
+
+>> There's also best practices you can set up, like multifactor authentication (MFA) and self-service password reset, where users can change their own passwords by verifying. It's the by putting in things like their mobile number and then it provide them a text message and putting in other things as well, like security questions.
+
+
+**Remember, the main thing here is always ensure that you're verifying users before changing their passwords. Because it not, you are running the risk of potentially giving the passwords to a malicious actor who's calling up and using social engineering to try and trick the helpdesk into resetting a password of a user so they can breach their account.**
