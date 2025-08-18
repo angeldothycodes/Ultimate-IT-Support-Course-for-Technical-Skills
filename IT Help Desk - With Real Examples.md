@@ -133,3 +133,83 @@ A really important thing with this is it also sets parameters like the required 
 
 
 # Office 365 MFA Setup
+
+How you could walk through a new user logging in for the first time to their Office 365 account.
+
+> Once an administrator has set up an account, you're going to go ahead and log into **login.microsoftonline.com**. You can also browse to **portal.office.com** and you're going to put in their username.
+
+> More than likely, they would have gotten their username and password in an email, or they would have gotten it handed to them by a helpdesk agent or maybe even their manager.
+
+
+<img width="552" height="507" alt="image" src="https://github.com/user-attachments/assets/2ed74780-84f5-4b74-b5de-d76fa612b558" />
+
+
+<img width="620" height="477" alt="image" src="https://github.com/user-attachments/assets/c279031e-bbc9-47ff-b4b5-f5bf7111c715" />
+
+
+<img width="549" height="476" alt="image" src="https://github.com/user-attachments/assets/01df57e1-fa74-41a7-8c8e-18140ee15a4c" />
+
+
+<img width="1384" height="646" alt="image" src="https://github.com/user-attachments/assets/c8316fb3-88bb-4f10-9fea-2510d588954b" />
+
+
+<img width="476" height="358" alt="image" src="https://github.com/user-attachments/assets/8ea4a710-a3ac-4353-b395-c3ccdc347b80" />
+
+
+<img width="452" height="248" alt="image" src="https://github.com/user-attachments/assets/0ecc78ec-22c1-43d7-8960-5e0ec3942672" />
+
+
+<img width="775" height="444" alt="image" src="https://github.com/user-attachments/assets/033926e2-4d8e-4353-a27e-4cbaa99e1988" />
+
+
+
+
+# Cannot Access File Share Folders
+
+**ISSUE:**
+Let's take a look about a very common issue that confronts the help desk frequently. And that's permission issues when it comes to folders and files.
+
+<img width="874" height="635" alt="image" src="https://github.com/user-attachments/assets/0aa258d9-1088-48f4-b01a-9d4994c14bd0" />
+
+
+We are remoted onto his machine, he opened up his File Explorer. We can see that he has browsed to the File server in the nvironment, and there is a folder called **projects** but when he double-click on it, this is the error he gets:
+
+<img width="1275" height="682" alt="image" src="https://github.com/user-attachments/assets/8e19113a-5d65-46f2-b680-9f28474f5568" />
+
+> As far as we've been told so far, it's not a problem with everyone. It's just particularly Bruce that's having the problem. It's a good thing to check off our list that the server is up, we can remote onto it, we can access that folder. So there must be particularly wrong with Bruce's account or his permissions.
+
+
+**TROUBLESHOOTING:**
+
+Head on over to our Active Directory server:
+
+> Let's open up server manager to begin.
+
+
+> When we're in server manager for any file servers, there is going to be a role called **"file and storage services"**. 
+
+<img width="1143" height="607" alt="image" src="https://github.com/user-attachments/assets/55612b51-4352-420f-8360-2d14cf88560a" />
+
+> Navigate to **"file and storage services"** and navigate to the shares. This is going to show all the shares the are currently exist on that system.
+
+<img width="940" height="492" alt="image" src="https://github.com/user-attachments/assets/7ec13f59-d8cb-4b1d-b7b0-24d65383049b" />
+
+> We can see there is one called **"projects"**. The actual folder itself is located in the C:\projects. Now, typically in a real environment, you probably would not have the shared drives on the C:\ volume. You would create dedicated disks or dedicated raids for them.
+
+<img width="860" height="479" alt="image" src="https://github.com/user-attachments/assets/9a26c173-98e8-4b7a-95f0-cb850024dd32" />
+
+
+
+> We can right click on the share and go to properties. 
+
+<img width="808" height="555" alt="image" src="https://github.com/user-attachments/assets/b2715cfd-8183-4eb8-95bc-4dd256334202" />
+
+> Then go to "Permissions" > Customize permissions
+
+<img width="965" height="631" alt="image" src="https://github.com/user-attachments/assets/aa94091c-4508-482b-a644-0ef325bb753c" />
+
+
+> Who has access? Administrators, the system, have full control.
+
+<img width="1113" height="751" alt="image" src="https://github.com/user-attachments/assets/be518849-a6d7-4503-aa6f-5c654fcb0793" />
+
