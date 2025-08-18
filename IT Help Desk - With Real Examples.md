@@ -128,3 +128,8 @@ A really important thing with this is it also sets parameters like the required 
 
 
 **Remember, the main thing here is always ensure that you're verifying users before changing their passwords. Because it not, you are running the risk of potentially giving the passwords to a malicious actor who's calling up and using social engineering to try and trick the helpdesk into resetting a password of a user so they can breach their account.**
+
+
+
+
+# Office 365 MFA Setup
