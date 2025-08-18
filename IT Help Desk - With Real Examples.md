@@ -36,3 +36,9 @@
 
 
 **As a helpdesk technician, you may be asked to do this when setting up a new device or when joining a machine that was removed from the domain.**
+
+
+**Troubleshooting:**
+1. Make sure you have the domain name
+
+2. The computer needs to be connected to the corporate network. Somewhere where it can talk to the AD server
