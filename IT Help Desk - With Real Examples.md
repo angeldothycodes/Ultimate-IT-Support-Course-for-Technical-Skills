@@ -97,4 +97,7 @@ Imagine we're sitting in the IT area at work, working away and all of a sudden B
 
 **Explanation:**
 
-In Active Directory environments there is typically a group policy called the default domain policy. It dictates how many times a user can try to log in before the account gets locked out.
+In Active Directory environments there is typically a group policy called the **default domain policy**. It dictates how many times a user can try to log in before the account gets locked out.
+
+A really important thing with this is it also sets parameters like the required password length, how ofthen we have to change our password, and then once we change them, how frequently we can change them again.
+
