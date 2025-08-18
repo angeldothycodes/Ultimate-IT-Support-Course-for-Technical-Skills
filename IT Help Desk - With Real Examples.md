@@ -86,3 +86,15 @@ attachments/assets/f22f50f8-a38b-459e-b376-19fba1f819c4" />
 
 
 >> If a device has a duplicate name, for example this one was removed previously and it's never been celaned up, you might have issues joining it again.
+
+
+
+# Locked Account and Forgotten Password
+
+**Scenario:**
+
+Imagine we're sitting in the IT area at work, working away and all of a sudden Bruce from accounting walks on up and says that recently he was prompted to change his password. He changed it, but now when he goes to log in, he thinks he may have forgotten it because when he types in what he thinks it is, it failed a few times and now it keeps coming up with a message saying that Bruce is locked out.
+
+**Explanation:**
+
+In Active Directory environments there is typically a group policy called the default domain policy. It dictates how many times a user can try to log in before the account gets locked out.
