@@ -101,3 +101,20 @@ In Active Directory environments there is typically a group policy called the **
 
 A really important thing with this is it also sets parameters like the required password length, how ofthen we have to change our password, and then once we change them, how frequently we can change them again.
 
+
+**Troubelshooting:**
+
+> We open up server manager, go to Tools > Active Direcory users and computers
+
+<img width="1422" height="627" alt="image" src="https://github.com/user-attachments/assets/daf89fee-5776-43ef-9f49-aeb2c59de38c" />
+
+
+<img width="486" height="302" alt="image" src="https://github.com/user-attachments/assets/7ff07e70-ab48-4bba-9ed5-ea84b89c8c4e" />
+
+
+<img width="287" height="221" alt="image" src="https://github.com/user-attachments/assets/0394e40d-bc64-450b-bcba-158475e16467" />
+
+
+<img width="886" height="543" alt="image" src="https://github.com/user-attachments/assets/08c463b3-dac7-48c1-9d61-faeabca9cd38" />
+
+
