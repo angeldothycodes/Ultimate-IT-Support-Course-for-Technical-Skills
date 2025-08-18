@@ -41,4 +41,48 @@
 **Troubleshooting:**
 1. Make sure you have the domain name
 
-2. The computer needs to be connected to the corporate network. Somewhere where it can talk to the AD server
+2. The computer needs to be connected to the corporate network. Somewhere where it can talk to the AD server:
+   Open up a command prompt to see if we can ping ADFS- that's the same of the Active     Directory server.
+
+3. The username and password of the domain account with permissions to join computers to the domain is also needed.
+   When prompter, we can just get Sarah to eneter in her credentials.
+
+
+4. The computer also has to have a unique name on the network:
+
+   To join a machine to the domain, simple type "Domain". The one that we want is the "Access work or school":
+
+   <img width="830" height="478" alt="image" src="https://github.com/user-attachments/assets/4fd58bd2-2ee1-4fbb-a908-c3bd0d1cec2c" />
+
+
+   
+<img width="431" height="232" alt="image" src="https://github.com/user-attachments/assets/67322929-d2d1-453f-a027-44f9e9aeac59" />
+
+
+<img width="176" height="162" alt="image" src="https://github.com/user-attachments/assets/07bf9cbd-dd2a-4f08-b793-bf310f4441ce" />
+
+
+<img width="382" height="151" alt="image" src="https://github.com/user-attachments/assets/ca0159a1-9377-49bd-9545-fae5ac6f7366" />
+
+
+<img width="777" height="443" alt="image" src="https://github.com/user-attachments/assets/a95d5e48-b75c-4564-ae55-aea867ed8144" />
+
+
+<img width="709" height="420" alt="image" src="https://github.com/user-
+attachments/assets/f22f50f8-a38b-459e-b376-19fba1f819c4" />
+
+
+
+<img width="653" height="458" alt="image" src="https://github.com/user-attachments/assets/ae4dee06-7835-4d3c-b16b-11e0a9c20a75" />
+
+
+>> If the computer can't ontact the domain controller, we won't be able to join it.
+
+
+>> The DNS server have to be pointed to the domain controller as well.
+
+
+>> You might have account permissions, so make sure the account you're using has rights to join the domain.
+
+
+>> If a device has a duplicate name, for example this one was removed previously and it's never been celaned up, you might have issues joining it again.
