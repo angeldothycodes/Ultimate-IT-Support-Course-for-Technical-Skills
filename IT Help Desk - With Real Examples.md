@@ -76,7 +76,7 @@ attachments/assets/f22f50f8-a38b-459e-b376-19fba1f819c4" />
 <img width="653" height="458" alt="image" src="https://github.com/user-attachments/assets/ae4dee06-7835-4d3c-b16b-11e0a9c20a75" />
 
 
->> If the computer can't ontact the domain controller, we won't be able to join it.
+>> If the computer can't contact the domain controller, we won't be able to join it.
 
 
 >> The DNS server have to be pointed to the domain controller as well.
