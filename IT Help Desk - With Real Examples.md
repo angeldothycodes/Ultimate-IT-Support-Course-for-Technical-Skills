@@ -277,3 +277,6 @@ Head on over to our Active Directory server:
 
 
 > In instances when you double check the group, and there is still no permissions for that user, sometimes what you might need to do is get the user to sign out and sign back in in order for the permissions to be applied. It's not just enough to lock in. You either need to restart it or sign in and sign out.
+
+
+# Onedrive and File Backups
