@@ -271,3 +271,9 @@ Head on over to our Active Directory server:
 
 
 <img width="371" height="385" alt="image" src="https://github.com/user-attachments/assets/be779f38-a296-49af-b6bb-f286fa30f825" />
+
+
+> So now, we say Bruce we'e added ou to the projects read write group
+
+
+> In instances when you double check the group, and there is still no permissions for that user, sometimes what you might need to do is get the user to sign out and sign back in in order for the permissions to be applied. It's not just enough to lock in. You either need to restart it or sign in and sign out.
