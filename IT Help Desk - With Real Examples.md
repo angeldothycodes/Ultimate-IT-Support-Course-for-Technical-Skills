@@ -263,6 +263,10 @@ Head on over to our Active Directory server:
 <img width="339" height="371" alt="image" src="https://github.com/user-attachments/assets/b7919209-0843-49cd-b551-a1288d37249c" />
 
 
+<img width="415" height="373" alt="image" src="https://github.com/user-attachments/assets/97fb8a30-a52c-40b7-bf39-0459c1fb24f7" />
+
+
+
 <img width="367" height="221" alt="image" src="https://github.com/user-attachments/assets/c7fb462a-a321-4cce-91bb-bd80d9cddc59" />
 
 
