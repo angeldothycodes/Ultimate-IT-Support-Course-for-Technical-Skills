@@ -209,7 +209,32 @@ Head on over to our Active Directory server:
 <img width="965" height="631" alt="image" src="https://github.com/user-attachments/assets/aa94091c-4508-482b-a644-0ef325bb753c" />
 
 
-> Who has access? Administrators, the system, have full control.
+> Who has access? Administrators, the system, the creator have full control.
+
+
+> There's a security group called "Projects_ReadWrite" that has modify access.
+
 
 <img width="1113" height="751" alt="image" src="https://github.com/user-attachments/assets/be518849-a6d7-4503-aa6f-5c654fcb0793" />
+
+
+> In Windows, you can go to Effective Access tab. Not a lot of people use it. "Select a user" in our domain
+
+
+<img width="699" height="511" alt="image" src="https://github.com/user-attachments/assets/0d332ad6-7b9c-436c-aaf7-e3d855d833ab" />
+
+
+> We can go check Bruce. We've got Bruce at the empty lot local. 
+
+<img width="376" height="258" alt="image" src="https://github.com/user-attachments/assets/0e5a0440-a9f5-451a-9de6-d8eb4cdc6bd9" />
+
+> We'll go ahead and view his effective access
+
+
+<img width="665" height="444" alt="image" src="https://github.com/user-attachments/assets/ae5e0529-c230-42a3-a983-8fbf356d7aa1" />
+
+
+> We can see that Bruce has absolutely no access. No read, no list, no full control, no delete, no read, nothing to this folder.
+
+<img width="556" height="282" alt="image" src="https://github.com/user-attachments/assets/54d0437c-3a86-4973-95ea-6cf138ed66f5" />
 
