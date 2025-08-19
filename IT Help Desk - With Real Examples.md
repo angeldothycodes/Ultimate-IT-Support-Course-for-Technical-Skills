@@ -280,3 +280,10 @@ Head on over to our Active Directory server:
 
 
 # Onedrive and File Backups
+
+When you're setting up OneDrive, there's a really important tip that a lot of people skip over and not really thinking about it but it's a really powerful feature:
+
+When signed in to OneDrive, there is a "Back up folders on this PC". What you can set up with OneDrive by default, now is a backup of certain folders to go up to the cloud. That means for your users, if you backup the documents, pictures, and desktops to the cloud, for example, any documents that they store on there. Users are notorious for storing things in folders they shouldn't be like desktop. When you do this, it's going to back them up to that cloud environment. That means if their device goes and gets stolen or they corrupt the oprating system, a piece of hardware fails, they're not going to lose all their data because it will have been synced up to the Microsoft cloud. Then all they need to do when they get their new device is log in, put the username and password in, BAM! As longs as they've got access to their OneDrive account, they'll have access to all of their documents and pictures. This way, you can give users that peace of mind that as long as you're storing your data in the correct folders, typically it should be in places like SharePoint or OneDrive or the file server. But if they are storing them on documents, pictures, and desktops and you can enable music and videos.
+
+<img width="516" height="482" alt="image" src="https://github.com/user-attachments/assets/602f8b40-71d8-4423-b86c-462cde7dbc2b" />
+
