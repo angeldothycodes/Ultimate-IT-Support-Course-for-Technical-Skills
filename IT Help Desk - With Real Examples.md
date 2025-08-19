@@ -234,7 +234,36 @@ Head on over to our Active Directory server:
 <img width="665" height="444" alt="image" src="https://github.com/user-attachments/assets/ae5e0529-c230-42a3-a983-8fbf356d7aa1" />
 
 
-> We can see that Bruce has absolutely no access. No read, no list, no full control, no delete, no read, nothing to this folder.
+> We can see that Bruce has absolutely no access. No read, no list, no full control, no delete, no read, nothing to this folder. That must mean that in the permissions, he is not added.
 
 <img width="556" height="282" alt="image" src="https://github.com/user-attachments/assets/54d0437c-3a86-4973-95ea-6cf138ed66f5" />
 
+
+> Let's go and have a look at this group:
+
+<img width="566" height="220" alt="image" src="https://github.com/user-attachments/assets/e177be53-aedf-4a0d-81d6-2d61ae0eee27" />
+
+
+<img width="921" height="363" alt="image" src="https://github.com/user-attachments/assets/e8659b00-ffd4-46b6-b561-b6f0b5dd51cd" />
+
+
+<img width="309" height="366" alt="image" src="https://github.com/user-attachments/assets/56b9a08a-0be9-46b5-a68d-62a3fee4af8d" />
+
+<img width="484" height="487" alt="image" src="https://github.com/user-attachments/assets/fdd4219b-7089-4a5e-9991-8595a16c6df3" />
+
+
+<img width="849" height="518" alt="image" src="https://github.com/user-attachments/assets/5dc59129-56d3-45d9-b638-3b77852870eb" />
+
+
+> We know that folder, that security group has modified permissions, that's probably the group that Bruce needs to be a part of. So we would go ahead and get permissions from whoever we need to in our organization. Whether that's we go to service desk manager or we go to Bruce's boss and we say, hey,do they have permissions? Whoever essentially is the owner of that folder and this security group, we need their permission to be able to add Bruce. They say, yes. that's absolutely fine. This is really urgent. Please get that done straight away.
+
+
+> All we need to do now is go back into the properties of the group in Active Directory > click ADD. Put Bruce in there and click Apply.
+
+<img width="339" height="371" alt="image" src="https://github.com/user-attachments/assets/b7919209-0843-49cd-b551-a1288d37249c" />
+
+
+<img width="367" height="221" alt="image" src="https://github.com/user-attachments/assets/c7fb462a-a321-4cce-91bb-bd80d9cddc59" />
+
+
+<img width="371" height="385" alt="image" src="https://github.com/user-attachments/assets/be779f38-a296-49af-b6bb-f286fa30f825" />
