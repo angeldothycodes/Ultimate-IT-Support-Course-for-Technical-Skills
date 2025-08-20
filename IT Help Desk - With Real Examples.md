@@ -300,4 +300,8 @@ I am trying to install a PDF reader onto my laptop, but it keeps asking for admi
 
 **TROUBLESHOOTING:**
 
-A topic that every IT support professional needs to understand well. That's a user access control or UAC within Windows. 
+A topic that every IT support professional needs to understand well. That's a User Access Control or UAC within Windows. It's a security feature that helps prevent unauthorized changes to the operating system. When a user or a program tries to make a chnage that requires admin privileges like installing software or changing system settings, UAC steps in and prompts for approval. This is done to protect the system from malware or accidental misconfiguration.
+
+Without UAC, any malicious program that gets on a user's machine could potentially make system level changes without their knowledge. **UAC** helps limit the damage by ensuring those critical actions need admin approval first. 
+
+So really in an environment, admin should be the only ones installing software. When users install software on their own, even with good intentions, it can introduce serious risks to the organzation from malware infections to slowing down systems when unnecessary apps. 
