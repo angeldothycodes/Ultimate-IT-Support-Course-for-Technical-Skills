@@ -353,4 +353,13 @@ One of the first things we can test is does Billy's machine have access to that.
 Next, we need to check is if Billy actually supposed to get this. In server manager, go to Tools> Active Directory Users and Computers. From there we look into the **OU(Organizational Unit)**. Otherwise, we can always just right click and do a find and type in the PC name. From here, we can check and we can make sure that desktop does appear in that group.
 
 
-Sometimes when machines have been offline for a little bit of time and not checking in with the network, they might be a little bit behind on policies.
+Sometimes when machines have been offline for a little bit of time and not checking in with the network, they might be a little bit behind on policies. We can force a policy update by opening up command prompt and running **gpupdate /force**. You don't need to run this as administrator. By running that, it's going to reach out to the group policy server and pull all the latest updates.
+
+This is the message displayed when gpupdate /force was executed:
+
+<img width="798" height="559" alt="image" src="https://github.com/user-attachments/assets/da1ab1c2-f49a-46c7-9dc1-baf5e5030352" />
+
+Essentially, this entire paragraph right here is just telling us reboot your machine and then the group policy will apply.
+
+
+Also, quickly check that the security filter which is under scope has authenticated users apply.
