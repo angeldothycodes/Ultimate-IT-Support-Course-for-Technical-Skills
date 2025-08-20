@@ -371,4 +371,4 @@ Also, quickly check that the security filter which is under scope has authentica
 Back on Billy's PC, let's take a look to see if this has applied. Aside from GPupdate, you can also do **gpresult /r** command. This is going to let us know what policies a user is part of. 
 
 
-One thing we can do as well while we're waiting is we can go ahead and jump into event viewer. Event viewer is a positive way to be able to see what the system is doing. In event viewer > Application event logs, we can see any sofwtare's
+One thing we can do as well while we're waiting is we can go ahead and jump into event viewer. Event viewer is a positive way to be able to see what the system is doing. In event viewer > Application event logs, we can see any sofwtares attempting to be deployed
