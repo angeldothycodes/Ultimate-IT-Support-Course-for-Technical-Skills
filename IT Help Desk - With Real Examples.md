@@ -287,3 +287,17 @@ When signed in to OneDrive, there is a "Back up folders on this PC". What you ca
 
 <img width="516" height="482" alt="image" src="https://github.com/user-attachments/assets/602f8b40-71d8-4423-b86c-462cde7dbc2b" />
 
+
+
+
+# Cannot Install Application
+
+**SITUATION:**
+
+I am trying to install a PDF reader onto my laptop, but it keeps asking for administrator permissions.
+
+
+
+**TROUBLESHOOTING:**
+
+A topic that every IT support professional needs to understand well. That's a user access control or UAC within Windows. 
