@@ -362,4 +362,13 @@ This is the message displayed when gpupdate /force was executed:
 Essentially, this entire paragraph right here is just telling us reboot your machine and then the group policy will apply.
 
 
-Also, quickly check that the security filter which is under scope has authenticated users apply.
+Also, quickly check that the security filter which is under scope has authenticated users apply. Essentially, all users are going to get that policy as long as they're contained within this **OU (Organizational Unit)**
+
+<img width="844" height="592" alt="image" src="https://github.com/user-attachments/assets/65abd8cd-68f4-4ce3-8db9-de5767ccb75a" />
+
+
+
+Back on Billy's PC, let's take a look to see if this has applied. Aside from GPupdate, you can also do **gpresult /r** command. This is going to let us know what policies a user is part of. 
+
+
+One thing we can do as well while we're waiting is we can go ahead and jump into event viewer. Event viewer is a positive way to be able to see what the system is doing. In event viewer > Application event logs, we can see any sofwtare's
