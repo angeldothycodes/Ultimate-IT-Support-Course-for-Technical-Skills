@@ -350,4 +350,7 @@ One of the first things we can test is does Billy's machine have access to that.
 
 <img width="968" height="427" alt="image" src="https://github.com/user-attachments/assets/4c4c0024-6fee-45cb-b991-c0c23db70a8a" />
 
-Next, we need to check is if Billy actually supposed to get this. In server manager, go to Tools> Active Directory Users and Computers. From there we looks into the **OU(Organizational Unit)**, we
+Next, we need to check is if Billy actually supposed to get this. In server manager, go to Tools> Active Directory Users and Computers. From there we look into the **OU(Organizational Unit)**. Otherwise, we can always just right click and do a find and type in the PC name. From here, we can check and we can make sure that desktop does appear in that group.
+
+
+Sometimes when machines have been offline for a little bit of time and not checking in with the network, they might be a little bit behind on policies.
