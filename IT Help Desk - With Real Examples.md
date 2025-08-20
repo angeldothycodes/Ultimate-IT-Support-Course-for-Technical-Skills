@@ -305,3 +305,49 @@ A topic that every IT support professional needs to understand well. That's a Us
 Without UAC, any malicious program that gets on a user's machine could potentially make system level changes without their knowledge. **UAC** helps limit the damage by ensuring those critical actions need admin approval first. 
 
 So really in an environment, admin should be the only ones installing software. When users install software on their own, even with good intentions, it can introduce serious risks to the organzation from malware infections to slowing down systems when unnecessary apps. 
+
+
+This is what UAC is:
+
+<img width="347" height="429" alt="image" src="https://github.com/user-attachments/assets/424c215c-4c98-46bc-add0-9198934f8e8e" />
+
+It lets us verify the publisher. It lets us look at where it's trying to install from. 
+
+
+
+# Troubleshooting Group Policy Objects
+
+
+<img width="371" height="332" alt="image" src="https://github.com/user-attachments/assets/993d8655-324a-4323-a3d5-975e028e335c" />
+
+Typically in a lot of business environments, instead of installing software manually on every single device individually, we'll create something called a **Group Policy**.
+
+**Group Policy** can do a lot of things. It can manage system settings, it can manage security settings. But one of the main reasons we use it is it can automate deployments of software out to various groups and users so we can separate based on the different types of users, what applications they get, and it can be installed automatically over the network.
+
+We know for a fact that there is an Active Directory server with a group policy that deploys out the 3XC app.
+
+
+**TROUBLESHOOTING:**
+
+What we need to now go and do is troubleshoot why for some reason it's not installed on Billy's machine. So we'll dive into wherever our group policies are held. In our case, we know. Thanks to our documentation. It's on the AD server.
+
+We're going to go to Tools > Group Policy Management
+
+<img width="577" height="328" alt="image" src="https://github.com/user-attachments/assets/36d1c081-2387-4acf-9ce2-855109d09cf9" />
+
+
+Now, we know that all of our computers are held in an OU called workstations. And look at that, there is a GPO called **deploy 3CX phone**
+
+<img width="401" height="295" alt="image" src="https://github.com/user-attachments/assets/16d5ebc6-522c-4282-a8fa-134bc8191834" />
+
+
+Going over to the settings > assigned applications. We can see that the 3CX phone we've got the deployment. and it is hosted on a shared file location:
+
+<img width="559" height="320" alt="image" src="https://github.com/user-attachments/assets/9f18e461-bb7c-441c-810e-9e95139c3fd5" />
+
+
+One of the first things we can test is does Billy's machine have access to that. Because you are going to need access in order to install it. So if we do ADFS backslash software, we can see it. That gives us a big check box.
+
+<img width="968" height="427" alt="image" src="https://github.com/user-attachments/assets/4c4c0024-6fee-45cb-b991-c0c23db70a8a" />
+
+Next, we need to check is if Billy actually supposed to get this. In server manager, go to Tools> Active Directory Users and Computers. From there we looks into the **OU(Organizational Unit)**, we
