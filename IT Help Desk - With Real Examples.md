@@ -418,4 +418,14 @@ Releasing and renewing your IP address clears out a bad or outdated address. It'
 # The Dreaded - Blue Screen of Death (BSOD)
 
 
-Let's now talk about resolving blue screen errors in Windows.
+Let's now talk about resolving blue screen errors in Windows. Blue screen errors, also known as BSODs, can occur if a serious problem causes windows to shut down or restart unexpectedly.
+
+To protect itself from data loss, you might see a message that says something along the lines of Windows has been shutdown to prevent damage to your computer or a similar message. Typically, it will also come with a code number, which you can stick into Google to get the exact reason, or atleast close enough as to why it is blue screening.
+
+We have a couple of troubleshooting steps we want to follow to try and help the user out.
+
+First of all, we need to find out if any new hardware has been added to the PC before the error. If so, we might want to try removing that hardware and see if it resolves the issue.
+
+The hardware could be faulty or there could be a compatibility issue.
+
+Another option is we might want to start our PC in safe mode. A good trick to that is if you hold down your shift key on your keyboard, click Start.
