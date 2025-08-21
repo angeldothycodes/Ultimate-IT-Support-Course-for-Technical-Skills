@@ -477,3 +477,78 @@ We can see if any were installed and we can see there were a few installed today
 
 
 What we would do is start going through the process of uninstalling those updates. From there, if hat still has not resolved the issues then what we can do is potentially move on to something like checking the event viewer so we can go into the event viewer of a system again.
+
+
+From there, if that still has not resolved the issue, then what we can do is potentially move on to doing something like cheking the event viewer so we can go into the event viewer of a system again. See if there are any logs under the Windows Log system that tell us why the system is going ahead, and blue screening.
+
+
+There's a few more advanced tools that we can run, like the Windows Memory Diagnostic Tool and the memory dump analysis. 
+
+
+More often than not, it's going to be something like these updates or the startup repair that resolves.
+
+
+**TO SUMMARIZE:**
+
+> Remove any new hardware
+
+> Start your PC in safe mode.
+
+> Check the device manager, check for free space, check the latest updates
+
+> If still having issues, dive into some advanced steps like checking the Event viewer, running the Windows Memory Diagnostics tool, or looking at a memory dump analysis
+
+
+
+
+
+# SLOW INTERNET
+
+
+Our goal is to identify whether the problem is on the device, the local network, or with the wider internet connection.
+
+
+First part is triage right. We need to ask some questions to understand the scope.
+
+
+Imagine we got a call on the help desk and it's a user complaining that the internet is running very slow today. It's affecting things like they're not able to check their emails regularly. Web pages are timing out. Overall, the internet just feels sluggish.
+
+The first things you really need to determine is, is this slowness affecting just them or everyone?
+
+Let's say we are remoted onto the user's machine. What we can do is load up internet browsser and find an online speed test tool. We know for a fact based on documentation that this site has 100 megabits internet.
+
+
+
+<img width="718" height="451" alt="image" src="https://github.com/user-attachments/assets/eec599c9-6613-4946-8c86-7d8cdf1f6c48" />
+
+
+
+It seems like this user is capped at about nine megabits for some reason. It just doesn't seem to be getting any faster. The question that you should start thinking is if it just this user's device or is it everyone. You could ask them to maybe check with the person to their left or to their right to run the speed test. Or if we know that there's a server in the environment, we're going to jump onto the AD server that's at the same office, we can run a speed there.
+
+
+<img width="795" height="868" alt="image" src="https://github.com/user-attachments/assets/a35b0155-f0a5-4596-9ee3-a420b631dedb" />
+
+
+
+AD server is getting around 80 to 90 mbps. The AD server is in the same office using the same internet connection. It tells me that this slowness is not just affecting the internet line, it's potentially just affecting our one client here, this one user.
+
+
+**TROUBLESHOOTING:**
+
+You could also go and check things like is it only happening with specific websites or applications? Start asking questions like when did the issue start and has anything changed recently? That's a really important one because if you know, they start talking about how they move desks or something, we can start thinking, okay, well, maybe the cable is faulty. Those types of thought patterns. Another really important thing is to determine are they connected to Wifi or are they on Ethernet?
+
+
+<img width="422" height="360" alt="image" src="https://github.com/user-attachments/assets/c7753d8a-ca57-4f3f-b567-650c4baaedd5" />
+
+
+In our case, we can see they are cnnected to Ethernet thanks to the little computer symbol down in the bottom right hand corner here. If it was Wi-Fi, they ould appeear to be a Wi-Fi symbol
+
+
+Typical IT stuff, have you tried turning it off and on again? Ttypically one of the most common tools is to just give the machine a very quick reboot.
+
+One reboot is done, open up the browser and go to and do Speed Test. If that didn't resolve the issue, look at the task manager and go to performance tab.
+
+
+**Saw that the CPU is not overloaded, the mmeor too is sitting at quite a steady level. The disk is not being overloaded and the Ethernet too is looking fine.
+
+
