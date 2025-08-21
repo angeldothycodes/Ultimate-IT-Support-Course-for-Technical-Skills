@@ -428,4 +428,52 @@ First of all, we need to find out if any new hardware has been added to the PC b
 
 The hardware could be faulty or there could be a compatibility issue.
 
-Another option is we might want to start our PC in safe mode. A good trick to that is if you hold down your shift key on your keyboard, click Start.
+Another option is we might want to start our PC in safe mode. A good trick to that is if you hold down your shift key on your keyboard, click Start > Power button > click restart> all the while you've got to keep holding the shift button. Keep holding it. What it's going to do is start the PC in safemode. 
+
+<img width="1119" height="722" alt="image" src="https://github.com/user-attachments/assets/e4046c21-d149-4225-93cb-560336d3a840" />
+
+
+
+<img width="949" height="599" alt="image" src="https://github.com/user-attachments/assets/8a02682f-2596-45e3-a485-3b23e53c65d0" />
+
+
+
+<img width="1029" height="692" alt="image" src="https://github.com/user-attachments/assets/e2be9fdc-9b59-41a5-9054-edc1c63d8f77" />
+
+
+The **startup repair** is a super handy feature, and what it's going to do is run though a prebuilt check that Microsoft has to ensure that all the files are working correctly.
+
+<img width="789" height="355" alt="image" src="https://github.com/user-attachments/assets/b0677ae7-0de7-4416-9829-cd940cf0ac51" />
+
+
+While this is going through, it's going to go and try and diagnose and fix it.
+
+<img width="772" height="599" alt="image" src="https://github.com/user-attachments/assets/ef9c2843-c2cc-4e7b-9d2b-d93a0d85d0da" />
+
+
+
+Some other steps outside of the safemode options is we're going to want to check the **device manager**. Right-click start menu> click on Device Manager. Otherwise we can search for it in the search menu.
+
+
+<img width="1078" height="665" alt="image" src="https://github.com/user-attachments/assets/887f5d46-8d1b-482e-b4c1-dbdf2a950ad0" />
+
+
+We just want to see if any devices are marked with a yellow triangle or a red exclamation point which should show if they were. This could mean that, potentially, the device is corrupted or the driver is having some sort of issues, so we many need to update the driver, which we would do with right clicking and clicking update Driver.
+
+<img width="529" height="536" alt="image" src="https://github.com/user-attachments/assets/b5e3a355-f1bd-4edc-b7fa-50e399cf2e87" />
+
+
+We're going to want to check for sufficient free space on the hard drive. 
+
+We are also going to check to see if any Windows update have installed recently. There have been issues in the past where an update has caused blue screens for whatever reasons. If we type in the word "Windows Update" settings, we can find "View your Update" history in the list.
+
+<img width="651" height="576" alt="image" src="https://github.com/user-attachments/assets/8e1cb2e0-409f-46ea-9a09-41b5f8cce95b" />
+
+
+
+We can see if any were installed and we can see there were a few installed today:
+
+<img width="709" height="534" alt="image" src="https://github.com/user-attachments/assets/3af0483a-1cbc-4dda-9296-c4dd07d1eef5" />
+
+
+What we would do is start going through the process of uninstalling those updates. From there, if hat still has not resolved the issues then what we can do is potentially move on to something like checking the event viewer so we can go into the event viewer of a system again.
