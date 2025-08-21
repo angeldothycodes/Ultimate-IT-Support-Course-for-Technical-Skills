@@ -371,4 +371,11 @@ Also, quickly check that the security filter which is under scope has authentica
 Back on Billy's PC, let's take a look to see if this has applied. Aside from GPupdate, you can also do **gpresult /r** command. This is going to let us know what policies a user is part of. 
 
 
-One thing we can do as well while we're waiting is we can go ahead and jump into event viewer. Event viewer is a positive way to be able to see what the system is doing. In event viewer > Application event logs, we can see any sofwtares attempting to be deployed
+One thing we can do as well while we're waiting is we can go ahead and jump into event viewer. Event viewer is a positive way to be able to see what the system is doing. In event viewer > Application event logs, we can see any softwares attempting to be deployed.
+
+
+
+**NOTE:**
+(After doing the troubleshooting abive, 3cx got installed.)
+
+For the most part this is a very automated process. We never have to get involved, but there are instances where new policies get created and a particular workstation hasn't been turned on in a while, so it has no way of getting those new policies until someone finally turns it on, maybe gives it a gpupdate /force and reboots it.
