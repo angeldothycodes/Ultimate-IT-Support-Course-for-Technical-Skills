@@ -411,3 +411,11 @@ You are changing networks or there's an IP address conflict.
 
 
 Releasing and renewing your IP address clears out a bad or outdated address. It's useful for when users can't connect or they might have switched networks or see IP conflicts in their event viewer.
+
+
+
+
+# The Dreaded - Blue Screen of Death (BSOD)
+
+
+Let's now talk about resolving blue screen errors in Windows.
