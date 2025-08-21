@@ -383,4 +383,5 @@ One thing we can do as well while we're waiting is we can go ahead and jump into
 <img width="572" height="478" alt="image" src="https://github.com/user-attachments/assets/a2af9273-6628-44c4-85ef-079a9b51a70c" />
 
 
+
 For the most part this is a very automated process. We never have to get involved, but there are instances where new policies get created and a particular workstation hasn't been turned on in a while, so it has no way of getting those new policies until someone finally turns it on, maybe gives it a gpupdate /force and reboots it.
