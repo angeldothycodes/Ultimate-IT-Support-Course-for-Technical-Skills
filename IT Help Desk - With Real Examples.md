@@ -385,3 +385,29 @@ One thing we can do as well while we're waiting is we can go ahead and jump into
 
 
 For the most part this is a very automated process. We never have to get involved, but there are instances where new policies get created and a particular workstation hasn't been turned on in a while, so it has no way of getting those new policies until someone finally turns it on, maybe gives it a gpupdate /force and reboots it.
+
+
+
+# Release and Renew IP Addresses
+
+If users are having trouble connecting to the network, can't access the internet, or are having strange IP conflicts, the simple command line fix can often do the trick.
+
+When your device connects to a network, it usually gets an IP address from a DHCP server that's often your router or a dedicated DHCP server in business environments.
+
+Sometimes things go wrong. The lease expires, the lease gets stuck. You have an incorrect or outdated IP, maybe there's a conflict with another device, or you're just switching between networks.
+
+By releasing the IP, you're telling the device to give up its current address, and by renewing it, you're asking the DHCP server for a brand new fresh one.
+
+Some common situations when releasing and renewing helps is when a device has no internet access despite being connected.
+
+If you're seeing 169.254 address, this means that Windows couldn't get one. 
+
+You are changing networks or there's an IP address conflict.
+
+
+**Here's what we need to do:**
+
+<img width="1037" height="750" alt="image" src="https://github.com/user-attachments/assets/fd361cb0-dfdf-49c5-b086-6052ef50a0c5" />
+
+
+Releasing and renewing your IP address clears out a bad or outdated address. It's useful for when users can't connect or they might have switched networks or see IP conflicts in their event viewer.
