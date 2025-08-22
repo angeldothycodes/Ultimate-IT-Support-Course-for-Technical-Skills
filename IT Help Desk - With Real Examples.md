@@ -588,3 +588,8 @@ By following the steps that I've shown you, you'll be able to diagnose and solve
 
 # Remote Site - Internet Down!
 
+It was slow all morning but now we cannot load anything at all. It's really affecting our ability to work.
+
+One of the first things you're going to need to do on the help desk is understand the impact.
+
+There have been calls to the help desk cla
