@@ -549,6 +549,40 @@ Typical IT stuff, have you tried turning it off and on again? Ttypically one of 
 One reboot is done, open up the browser and go to and do Speed Test. If that didn't resolve the issue, look at the task manager and go to performance tab.
 
 
-**Saw that the CPU is not overloaded, the mmeor too is sitting at quite a steady level. The disk is not being overloaded and the Ethernet too is looking fine.
+**Saw that the CPU is not overloaded, the memory too is sitting at quite a steady level. The disk is not being overloaded and the Ethernet too is looking fine.
 
+** Needs to start diagnosing and diving into the root cause.
+
+Try going to device manager as an administrator:
+
+1. Open CMD as admin
+2. Type devmgmt.msc
+3. This will log you in device manager as an administrator
+
+
+
+<img width="474" height="414" alt="image" src="https://github.com/user-attachments/assets/c917ef11-8ae0-4d12-bb02-2fc0ac6319d3" />
+
+
+
+Take a look at network adapters, we know they are using the Ethernet connection which is the Intel 82574L Gigabit connection. Right click on it > Properties > Advanced > Speed & Duplex. Make sure that the speed and duplex is set correctly. Right now, it's set to auto-negotiate. Let's set it to 1.0 Gbps Full Duplex.
+
+While you are on the Device manager, you can also update the driver. Right click > update driver.
+
+After that do another speed test. (The speedtest resulted to increase speed)
+
+
+<img width="711" height="524" alt="image" src="https://github.com/user-attachments/assets/a690c703-4125-47da-b462-4d1c35b1acad" />
+
+
+**NOTE:**
+You've got to think to yourself that when we're doing things within here, this is the software that controls the hardware. If it's out of date, if it's got problems, if it's got bugs in the current version, it can cause a whole manner of issues, including slow internet speeds.
+
+
+By following the steps that I've shown you, you'll be able to diagnose and solve most slow internet complaints or get them escalated properly.
+
+
+
+
+# Remote Site - Internet Down!
 
