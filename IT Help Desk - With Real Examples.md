@@ -592,4 +592,35 @@ It was slow all morning but now we cannot load anything at all. It's really affe
 
 One of the first things you're going to need to do on the help desk is understand the impact.
 
-There have been calls to the help desk cla
+There have been calls to the help desk claiming that the internet is down and at the end of the day all taht's happened is Facebook is having some massive outage but to them that's the whole internet.
+
+There have been sitauations where the internet is down, but in reality all it is is people can't connect to the Wifi.
+
+
+
+<img width="1788" height="778" alt="image" src="https://github.com/user-attachments/assets/7727ccd0-476f-4c5b-ba7a-ea6679269476" />
+
+
+
+
+So you need to start asking those probing questions to get a real good understanding of is everyone affected in the office or is it just individual or maybe just multiple users?
+
+Can they reach internal systems or just not external webistes? 
+
+Are cloud apps like Microsoft 365 loading for them or not?
+
+This is going to be your triage process to be able to really understand where the impact is.
+
+Let's say the documentation for this site states that is a small star, only about 4 to 5 users.
+
+They've got a pretty cool standard Asus router out there with an ISP with a fixed line, and you've checked the ISP status page. They're not showing any outages.
+
+
+You've jumped on your remote tool, and you cannot remote into any of these devices at that site. It's starting to look that the internet is actually down at the site.
+
+We need to guide them towards checking out the network equipment. We're going to knid of get them to probe the network, maybe just go through a few simple steps like checking on the router.
+
+
+1. First thing we're gonna do is we're going to let them go over and check on the router.
+
+<img width="600" height="729" alt="image" src="https://github.com/user-attachments/assets/5beb25f0-09bd-4132-a5d8-56d58e94ac33" />
