@@ -654,3 +654,19 @@ For example, in the case of firewalls, a lot of them have proper shutdown proced
 
 
 
+
+# Printer Issue
+
+A user raised an issue saying they are not able to print. At the moment what they're trying to print is extremely important. 
+
+
+**TROUBLESHOOTING:**
+
+We are going to do is we're going to head an over to the settings. Open up **printers & scanners**
+
+<img width="812" height="499" alt="image" src="https://github.com/user-attachments/assets/57e5635e-3b88-4f85-a1f0-552125a5895f" />
+
+
+
+<img width="849" height="576" alt="image" src="https://github.com/user-attachments/assets/c708ee67-20f7-4cb2-af7a-bbf8423ce8fa" />
+
