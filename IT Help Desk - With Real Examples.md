@@ -618,9 +618,39 @@ They've got a pretty cool standard Asus router out there with an ISP with a fixe
 
 You've jumped on your remote tool, and you cannot remote into any of these devices at that site. It's starting to look that the internet is actually down at the site.
 
-We need to guide them towards checking out the network equipment. We're going to knid of get them to probe the network, maybe just go through a few simple steps like checking on the router.
+We need to guide them towards checking out the network equipment. We're going to get them to probe the network, maybe just go through a few simple steps like checking on the router.
 
 
 1. First thing we're gonna do is we're going to let them go over and check on the router.
 
 <img width="600" height="729" alt="image" src="https://github.com/user-attachments/assets/5beb25f0-09bd-4132-a5d8-56d58e94ac33" />
+
+
+
+We can see that there is a power line, but all the other lights are currently off.
+
+
+
+<img width="748" height="676" alt="image" src="https://github.com/user-attachments/assets/a602e2d6-df3d-4a2f-a3d1-9061832cf1ac" />
+
+
+The internet line is currently showing no connection.
+
+
+We can get them to check that all the cables are securely fastened at the back. We can get them to check that the internet service provider is not reporting any outages in the area. Typically, a lot of ISP will have some sort of status page.
+
+
+If all else fails and the internet is still not working, then what we can do is at the back here there is a little power button that we can turn off and turn back on again. Let's see if the internet reconnects.
+
+
+Typically for remote sites who have business grade routers such as this, that might be okay. But for enterprise grade routers, we may not want to reboot them because the boot times can be upwards in the 5 to 10 minutes, and sometimes they have proper shutdown procedures.
+
+
+For example, in the case of firewalls, a lot of them have proper shutdown procedures that need to be followed. For consumer grade routers like this and business grade routers, it should be fine.
+
+
+
+<img width="885" height="493" alt="image" src="https://github.com/user-attachments/assets/c80f8fe8-a9bc-4601-9098-220057d46fbe" />
+
+
+
