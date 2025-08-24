@@ -1,4 +1,4 @@
-# Troubleshooting Methodology
+<img width="961" height="680" alt="image" src="https://github.com/user-attachments/assets/15c3c617-ccad-44a6-87bd-49ef87231778" /># Troubleshooting Methodology
 
 <img width="1121" height="602" alt="Screenshot 2025-08-18 235011" src="https://github.com/user-attachments/assets/af964a79-9cab-4dc2-8d84-f9dba24b2cf5" />
 
@@ -910,3 +910,67 @@ Modern operating systems do use a lot more resources because thay're doing a lot
 
 
 The most improtant things is always update the ticket with the user's description of the problem, what checks you've performed, and any changes you've made. If you do manage to resolve the issue, what the final resolution was or if you need to escalate the ticket.
+
+
+
+# Using an Emulator When You're Unfamiliar with an Operating System
+
+As an IT professional, you'll often encounter operating systems that you don't work with everyday. Maybe a user calls in using the latest iPhone that you haven't had a chance to play around with yet.
+
+Or maybe they're calling in with a browser tha you don't typically use. In these cases, that's where emulators can really help us out.
+
+
+CHASMS emulator. The whole idea behind it is it provides IT professionals an emulation platform for you to be able to go out and test and try and even walk users through issues that you may not have a lot of experience with.
+
+CHasms is a web-based OS emulator that runs various Linux distriutions, desktop environments, browsers, etc. It's free, it's fast, and it's perfect for practice or quick troubleshooting.
+
+
+<img width="661" height="359" alt="image" src="https://github.com/user-attachments/assets/6d42d09a-51bf-4140-aedf-3f5d6dd740e2" />
+
+
+
+# Hard Drive Disk Space Issues
+
+Whethere you're supporting a small office or large organization, running low on disk space can lead to performance issues, failed updates, and in some cases, complete system failure.
+
+Applications are crashing, or they're seeing warning messages from Windows saying something like you are running low on disk space.
+
+You might even hear complaints that they can't save new files or install software. 
+
+1. Access the machine and check for available space. The quickest way to do that is open up the File Explorer.
+
+<img width="1288" height="747" alt="image" src="https://github.com/user-attachments/assets/c2ed510f-ad24-4f2b-9d4d-1d8fae66fbf4" />
+
+We can see that in this computer it's only got abut  6GB free of the hard disk. That immediately raises some red flags.
+
+
+2. Now that we know the issues and that we understand it, we need to start looking at cleaning it up and identifying what's taking up the space. Disk cleanup is a handy tool. It can be run as a non-administrator but it's only going to be able to cleanup some directories. As an adminstrator, you can cleanup system files as well. It will pull C: drive and give us a list of what files are no longer needed by the system. There are cases where it can clear up a lot of data. Cases where machines hold on to 10GB of old update files that they no longer need.
+
+<img width="961" height="680" alt="image" src="https://github.com/user-attachments/assets/e1e4a91f-7d64-4b0f-b775-03d048b6e992" />
+
+
+3. In this case, only 1GB of system files got cleaned up. We really need to start identifying what's taking up space. You can use some 3rd party tools. There are PowerShell scripts available as well, but the 3rd party tools in my experience are pretty much easier and create a visual map of what folders and files are taking up the most space. **Windirstat**. If we double-click on it, we can choose to scan all of our drives. It's going to go through and start giving us a really nice visual map of what is using the most data on this system. If it is run as a standard user, it has limited scope that it can scan.
+
+
+
+<img width="1180" height="740" alt="image" src="https://github.com/user-attachments/assets/387a4242-2e81-4416-a797-c0a7c78be4d2" />
+
+A standard user can't look through all the directries of the other users who may have used this machine. 
+
+If we run this as administrator, we should be able to see al the other user profiles.
+
+
+<img width="1505" height="705" alt="image" src="https://github.com/user-attachments/assets/f2724d34-0054-4959-baa9-69106c9047fa" />
+
+It's telling us that 45% of the disks is someone under the Users drive. In windows, each user that signs in gets their home directory- the download folder, desktop, documents, pictures, videos, etc.
+
+Every user that signs in that will stay there forever unless cleaned up.
+
+
+<img width="716" height="272" alt="image" src="https://github.com/user-attachments/assets/16947f46-5d97-4895-acfd-900150cd7136" />
+
+
+There is a user called Robert that is using 25GB of space in the user's Robert downloads folder. We can chat Robert if they still exist at the company to offer backing up his data or moving it onto OneDrive or SharePoint or something to clean it off of the PC. 
+
+
+Moving forward, we're going to want to encourage our users to save any large personal files like videos or photos to some soft of cloud storage or the file server and not individual computers because we could end up filling up the drives.
