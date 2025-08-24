@@ -754,7 +754,7 @@ What it's going to do is check few of the basics in the background to make sure 
 
 It could also be something incredibly simple, like we're missing the drivers for the machine or for the hardware.
 
-It could be that potentially something wasn;t completed properly upon install. 
+It could be that potentially something wasn't completed properly upon install. 
 
 
 
