@@ -702,4 +702,62 @@ When we tried to print out a test page earlier, it is telling us about what the 
 
 # Display Issues
 
-A really common issue when it comes to either new computers or new docks or new monitors is people having
+A really common issue when it comes to either new computers or new docks or new monitors is people having issues with their displays. They may have issues like no signal to monitor. They may have something like what we're seeing right here, where the window is really small or really fuzzy. 
+
+
+<img width="538" height="386" alt="image" src="https://github.com/user-attachments/assets/5d884ffb-64a3-4205-a6f4-1cf7789b203c" />
+
+
+
+One of the best ways to troubelshoot these sorts of issues is to right click anywhere on the desktop and go into Display settings:
+
+<img width="554" height="425" alt="image" src="https://github.com/user-attachments/assets/1b49ebce-fa41-4f76-bcd2-a9a7d1eff1ec" />
+
+
+Scrolling down, we can see that currently the display resolution is set at the absolute minimum - 800x600
+
+
+What we need to do is determine the best aspect ratio of this monitor, and then change the settings to meet the requirements of that monitor.
+
+
+This is also where you can go if you have multiple displays. You can move them around in order to fix up how the displays are showing.
+
+
+Some people as well may have this flip to portrait for whatever reason.
+
+
+
+# Sound Issues
+
+**Caller:**
+
+I got a new laptop yesterday and this morning when I tried to jump into a video meeting with my team, I couldn;t hear them and had to drop out of the call. Can you help me as no sound is coming from my laptop at all?
+
+
+
+It sound like there is potentially a sound problem with the laptop.
+
+
+<img width="676" height="561" alt="image" src="https://github.com/user-attachments/assets/1b95e3a4-9fb0-46a2-a3ec-e13cb117b42c" />
+
+
+Right away we notice down in the bottom right hand corner there is a little audio symbol and it's got a red cross next to it. Whenever we see a red cross or a red triangle, that's always BAD NEWS.
+
+
+Right now, one of the cool things that we can do is we can actually right-click on this and click "troubleshoot sound problems"
+
+
+<img width="763" height="562" alt="image" src="https://github.com/user-attachments/assets/c2f6695b-6cb5-429c-baec-4305c82425f1" />
+
+
+What it's going to do is check few of the basics in the background to make sure that everything is okay with this machine because we could have a hardware error. It could be something wrong with the sound card or the sound chip in the machine.
+
+It could also be something incredibly simple, like we're missing the drivers for the machine or for the hardware.
+
+It could be that potentially something wasn;t completed properly upon install. 
+
+
+
+<img width="677" height="461" alt="image" src="https://github.com/user-attachments/assets/3a9108a3-152f-41a4-a506-f0e0b4b7a022" />
+
+
