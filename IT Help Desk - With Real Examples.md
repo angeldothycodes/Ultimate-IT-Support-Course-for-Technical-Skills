@@ -874,3 +874,39 @@ There's also some time to maybe do some light optimization while this is running
 
 
 By default, we can see what it's able to clear. We can tick all the boxes and click Okay.
+
+
+<img width="1044" height="794" alt="image" src="https://github.com/user-attachments/assets/ee75828b-f244-4a76-88e4-890163ab9531" />
+
+
+<img width="754" height="630" alt="image" src="https://github.com/user-attachments/assets/84e77a7c-3823-41d9-98f8-31157db1b556" />
+
+
+Otherwise if we wanted to dive deeper into the system, we need administrative rights which we'll put in. This is going to allow us to clean up even more system files that are no longer needed. Things like old update files, the recycle bin delivery optimization files.
+
+
+We might want to go and uninstall unused programs in the program center. Head on into the control panel and head on to uninstall a program.
+
+If there's a hard drive on the machine we might start looking at defragmenting it. These days most people have SSDs.
+
+
+Another thing we can look at is running Windows and driver updates. We can also look at checking for hardware issues. We may run a memory test, or we may check the status of the hard drive.
+
+
+<img width="647" height="363" alt="image" src="https://github.com/user-attachments/assets/0278d04f-0f2c-48f1-92b3-9efe34d69f7d" />
+
+
+A really good command to check hard drive status is if we open CMD, we can run wmic diskdrive get status. It is going to tell us if the status of the hard drive or the SSD is okay.
+
+
+
+We may even need to consider hardware upgrades in the most extreme cases. If this still had a hard disk in it, we might want to look at putting in an SSD. If we had maybe less than eight GB of RAM, we could look at upgrading that, or if potentially, the CPU is quite old as well.
+
+
+
+Modern operating systems do use a lot more resources because thay're doing a lot more in the background. So we're always going to make sure our machines are specked out adequately.
+
+
+
+
+The most improtant things is always update the ticket with the user's description of the problem, what checks you've performed, and any changes you've made. If you do manage to resolve the issue, what the final resolution was or if you need to escalate the ticket.
