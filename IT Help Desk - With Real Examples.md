@@ -795,3 +795,47 @@ Remember, I had to do this as an administrator account. Remember you can't do an
 **ISSUE/TICKET:**
 
 Hey, it's Derek over at project Deliverables here. My computer is crazy slow today. Every application is taking a minute or two to load. Fies won't open correctly and I can barely get any work done. I have a presentation to the board coming up so I really need you to fix it as soon as possible.
+
+
+**DISCUSSION:**
+
+In this lesson, we're going to walk through how to investigae and troubleshoot a slow PC. 
+
+When a user calls in and says "my computer is running really slow." It can mean a number of things. 
+
+As helpdesk professionals, our job is to ask the right questions, run some basic, and identify whether the issue is performace related, software related, or even user related. 
+
+**Right questions to ask:**
+
+- When did the slowness start?
+
+- Is it slow all the time or only during certain tasks?
+
+- Is it specific to one application or the whole system?
+
+- Have there been any recent changes or updates lately and are they working locally or remotely?
+
+
+Document all of your findings into your ticket because the more context you gather, the faster you're going to be able to find the root cause.
+
+
+**TROUBLESHOOTING:**
+
+1. Check the Task Manager. We can see that this machine is getting heavily hit in the CPU
+
+
+<img width="1063" height="789" alt="image" src="https://github.com/user-attachments/assets/9b36a494-61d5-4db5-8597-d387b7e70f2a" />
+
+Straight away, we know there is something wrong with this machine that we are hitting 100% CPU utilization.
+
+
+If we head over to Processes and sort the columns to see the exact processes using up all the memory. 
+
+In Task Manager, we have the ability to track CPU, memory, disk, and network.
+
+
+<img width="496" height="387" alt="image" src="https://github.com/user-attachments/assets/3134e7ca-5d62-4d35-ba83-90c678b249a8" />
+
+
+
+We can see that Microsoft Edge right here is using 
