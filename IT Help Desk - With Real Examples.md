@@ -693,4 +693,13 @@ Printers often have web interfaces, you can jump in there and let you know if it
 Let's head back to the printer and it's telling us exactly what the problem is.
 
 
-When we tried to print out a test page earlier, it is telling us about what the exact error is. 
+<img width="781" height="548" alt="image" src="https://github.com/user-attachments/assets/73a2c8bc-f6d3-4222-b32c-d7740c5f4568" />
+
+
+When we tried to print out a test page earlier, it is telling us about what the exact error is. The trubleshooter told us the same thing as well as the little windows notifications. The printer is out of paper and it's telling us exactly how to fix it.
+
+
+
+# Display Issues
+
+A really common issue when it comes to either new computers or new docks or new monitors is people having
