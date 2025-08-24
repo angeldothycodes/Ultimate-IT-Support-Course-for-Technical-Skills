@@ -838,4 +838,39 @@ In Task Manager, we have the ability to track CPU, memory, disk, and network.
 
 
 
-We can see that Microsoft Edge right here is using 
+We can see that Microsoft Edge right here is using 99% of CPU. Clearly, something is going wrong with this program.
+
+
+
+<img width="715" height="516" alt="image" src="https://github.com/user-attachments/assets/fbf7b777-1bd3-4dfd-af96-496c5f5de631" />
+
+What happens if we close it? After we issued the end task, let's head back to the performance graph. Straight away we see a massive reduction in the amount of processes and processor power that this machine is using.
+
+
+We can go and ask Derek to try a couple of applications out to see if computer is more responsive.
+
+**Derek opened Adobe Acrobat and opened Edge- it opened immediately.
+
+So now we know that the culprit was Microsoft edge. Then we can start doing some investigation as to what they were looking at in their browser and what may have been causing that.
+
+It's not always as straightforward as this. Sometimes, we have to dive deeper to find the root cause.
+
+For example, we might want to run a quick malware check. Malware of unwanted software is a common cause of slow performance on machines, so there's nothing wrng with jumping into the security center, clicking on virus and threat protection, and just doing a quick scan.
+
+<img width="868" height="453" alt="image" src="https://github.com/user-attachments/assets/dfde1402-1ef7-4bc1-825e-4085e65764c2" />
+
+<img width="679" height="331" alt="image" src="https://github.com/user-attachments/assets/e4f1a650-6943-4f7f-94cd-9d6358eba753" />
+
+
+
+There's also some time to maybe do some light optimization while this is running. You can clean up temporary files using disk cleanup or storage centers. If we go to the start menu and we just type in the word cleanup, we can open up the disk cleanup utility here. We can clean out anything that might be lingering.
+
+
+<img width="672" height="518" alt="image" src="https://github.com/user-attachments/assets/a2a48f3c-0ac1-4604-a820-4c30caa50762" />
+
+
+
+<img width="992" height="693" alt="image" src="https://github.com/user-attachments/assets/9ac06231-5611-40d5-a066-166215dfba9b" />
+
+
+By default, we can see what it's able to clear. We can tick all the boxes and click Okay.
