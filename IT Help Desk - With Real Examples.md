@@ -670,3 +670,5 @@ We are going to do is we're going to head an over to the settings. Open up **pri
 
 <img width="849" height="576" alt="image" src="https://github.com/user-attachments/assets/c708ee67-20f7-4cb2-af7a-bbf8423ce8fa" />
 
+
+We can see they are connected to the printer Canon TS3400
