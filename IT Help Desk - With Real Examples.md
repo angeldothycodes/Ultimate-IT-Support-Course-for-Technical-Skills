@@ -761,3 +761,37 @@ It could be that potentially something wasn't completed properly upon install.
 <img width="677" height="461" alt="image" src="https://github.com/user-attachments/assets/3a9108a3-152f-41a4-a506-f0e0b4b7a022" />
 
 
+Upon finishing the installation by double-clicking the result above, it showed this:
+
+<img width="471" height="363" alt="image" src="https://github.com/user-attachments/assets/c5684c86-ed51-4067-b45e-1a01497aa9c8" />
+
+
+
+**After the restart, the audio is still showing the little red x mark down here:
+
+<img width="518" height="313" alt="image" src="https://github.com/user-attachments/assets/0068525c-ea29-4a82-a1d8-9178f53951e5" />
+
+
+
+Let's see if we can fix this manually:
+
+
+<img width="847" height="710" alt="image" src="https://github.com/user-attachments/assets/a340b041-a9a8-4c72-af6a-f4aee9965dc4" />
+
+
+The high definition audio device is currently showing a down arrow which means it's disabled. Let's enable it to see if it fixes the issue.
+
+<img width="467" height="340" alt="image" src="https://github.com/user-attachments/assets/4eb28418-094a-4cb7-8a1d-c1bfa2f14424" />
+
+
+Remember, I had to do this as an administrator account. Remember you can't do anyhting in Device Manager as a standard user. You have to log in with someone as a domain admin.
+
+
+
+# Slow Loading Applications / Slow PC Troubleshooting
+
+
+
+**ISSUE/TICKET:**
+
+Hey, it's Derek over at project Deliverables here. My computer is crazy slow today. Every application is taking a minute or two to load. Fies won't open correctly and I can barely get any work done. I have a presentation to the board coming up so I really need you to fix it as soon as possible.
