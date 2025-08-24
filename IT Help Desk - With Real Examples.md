@@ -671,4 +671,26 @@ We are going to do is we're going to head an over to the settings. Open up **pri
 <img width="849" height="576" alt="image" src="https://github.com/user-attachments/assets/c708ee67-20f7-4cb2-af7a-bbf8423ce8fa" />
 
 
-We can see they are connected to the printer Canon TS3400
+
+<img width="679" height="458" alt="image" src="https://github.com/user-attachments/assets/96a41830-b182-45e2-abea-7552c9978b52" />
+
+
+We can see they are connected to the printer Canon TS3400. We can look at the print queue- it's empty.
+
+We can print a test page just to see if it's maybe the document the user's tryign to print or if it's actually something going wrong with thr printer itself.
+
+
+
+<img width="667" height="550" alt="image" src="https://github.com/user-attachments/assets/9454d779-a536-4173-883a-6861f26e51d9" />
+
+
+We can run the troubleshooter. This is a Windows built-in troubleshooter that's going to try and fix issues.
+
+
+Printers often have web interfaces, you can jump in there and let you know if it's got an issue that it's letting you know about.
+
+
+Let's head back to the printer and it's telling us exactly what the problem is.
+
+
+When we tried to print out a test page earlier, it is telling us about what the exact error is. 
