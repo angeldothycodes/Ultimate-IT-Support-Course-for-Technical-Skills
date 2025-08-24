@@ -974,3 +974,8 @@ There is a user called Robert that is using 25GB of space in the user's Robert d
 
 
 Moving forward, we're going to want to encourage our users to save any large personal files like videos or photos to some soft of cloud storage or the file server and not individual computers because we could end up filling up the drives.
+
+It important to educate users, encoruage them to do regular cleanups, to move old files off the system, and always be mindful what they're downloading and what they're installing.
+
+
+As a helpdesk professional, your job isn't just to fix the problem, it's to prevent it from happening again.
