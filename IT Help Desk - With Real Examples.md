@@ -1128,3 +1128,86 @@ You can just click on the check for updates button. If it finds any, it's going 
 <img width="932" height="967" alt="image" src="https://github.com/user-attachments/assets/ca2b1865-b574-410d-866f-5d9114d88c6e" />
 
 
+<img width="989" height="754" alt="image" src="https://github.com/user-attachments/assets/97e52ea2-8aa0-4bd1-962d-8503e00a76a9" />
+
+
+<img width="1024" height="991" alt="image" src="https://github.com/user-attachments/assets/336f477b-72d9-49d5-b981-ae562e296186" />
+
+
+
+<img width="1095" height="887" alt="image" src="https://github.com/user-attachments/assets/06ef20ae-0440-44ae-9026-2781ee396c3c" />
+
+
+<img width="1219" height="982" alt="image" src="https://github.com/user-attachments/assets/297ff7cd-8e7a-490c-9d66-ae2d7409bbce" />
+
+
+
+# Password Management Systems
+
+Let's be honest, passowrds are a pain point for bot users and IT. People forget them, reuse them, or store them insecurely.
+
+As helpdesk professionals, we're constantly resetting passwords or helping people recover accounts. That's why password management systems are so important.
+
+Let's talk about what they are, why they matter, and how they can help us and our users stay secure and efficient.
+
+A passowrd management system is a secure application that stores, generates, and retrieves passwords for users. These tools encrypt password and require a single master password or authentication method to access the vault.
+
+
+Let's go ahead and look at some popular examples out on the web.
+
+1. First one is LastPass. It's currently ranked the number one password manager in the entire world.
+
+<img width="1264" height="459" alt="image" src="https://github.com/user-attachments/assets/fc8bdf60-387c-4992-8e89-16c2e5d6e395" />
+
+
+2. Close behind is Bitwarden, who is slowly getting a foothold in the market.
+
+<img width="1215" height="521" alt="image" src="https://github.com/user-attachments/assets/c0152228-0fca-480e-90a3-13aa9f24d39f" />
+
+
+3. We have companies like Keep Security as well, or 1Password, or Dashlane.
+
+<img width="1601" height="817" alt="image" src="https://github.com/user-attachments/assets/bf1d72c3-6e2a-4509-b8b0-176c6e0d8d23" />
+
+
+<img width="1110" height="558" alt="image" src="https://github.com/user-attachments/assets/3089e723-f300-4da4-9035-ccc43e8a3336" />
+
+
+<img width="1133" height="564" alt="image" src="https://github.com/user-attachments/assets/ffc9bfe1-0a12-4494-a38f-452abe7156d5" />
+
+
+Enterprise environments may also use things like Azure Passowrd Manager or even documentation systems like IT Glue for wide secure credential management.
+
+**Why do we use password managers?**
+
+- Users who write password on sticky notes, teams sharing admin ceredentials over email, and technicians storing logins in an unencrypted spreadsheet. Every one of these is a security incident waiting to happen. But password management systems solve this problem by storing credentials securely with encryption.
+
+They are able to generate very complex passwords that are hard to guess and that users don't need to remember. It reduces password reuse across sites and systems, and also enables sharing credentials securely with proper access control.
+
+But most of all is the logging. We can log access so you know who used what and when. 
+
+As helpdesk professional, we benefit from password managers in several ways:
+
+> Faster resolution of tickets because we can access needed logins quickly and securely.
+
+> Fewer password reset request from our users because users use their own manager and that way we're going to reduce their dependency on us
+
+> Better compliance. We can enforce strong password polciies without overburdening users and improved onboarding and offboarding processes.
+
+> For shared accounts, safer printers, software dashboards, or even vendor portals, we can maintain security without revealing the actual passwords
+
+
+As IT professionals we should be champions of password hygiene. Here's what we an encourage our users to do:
+
+> Use these reputable password managers as long as they're in line with your business requirements and compliance policies
+
+> Never reuse passwords and enable two factor authentication where possible
+
+> Also, remind users that using a password manager is not cheating. It's smart security.
+
+
+**NOTES:**
+
+Final thoughts, password management systems help reduce risk, improve support efficiency, and protect both individual users and an organization as a whole.
+
+
