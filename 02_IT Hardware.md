@@ -193,5 +193,49 @@ By having that layer of separation, where your primary internet connection is wi
 secondary internet connection is with a second ISP, you have a more chance of keeping your business operational in case of an incident.
 
 
+
 **BENEFITS OF A BACKUP INTERNET CONNECTION**
 
+<img width="1159" height="647" alt="image" src="https://github.com/user-attachments/assets/9c0b09bb-e0da-48f1-94c6-3e5ed2715195" />
+
+
+Some benefits of having a backup internet connection include that business continuity.
+
+It ensures that your business can continue to operate even if your primary internet connection goes down.
+
+This could be because of a cut cable in a street, or potentially some maintenance that's going on in the provider's network, or even just an outage where something has gone wrong in their core network, causing all their customers to go offline.
+
+Another option with the backup internet connection can be used to balance the load across multiple connections, improving the performance and reducing the risk of network congestion.
+
+
+**OPTIONS FOR A BACKUP INTERNET CONNECTION**
+
+<img width="862" height="502" alt="image" src="https://github.com/user-attachments/assets/3b9f1a73-6540-418e-8149-31aaa64fe795" />
+
+
+In our lecture on internet services, we already covered off many different types of internet services that are available, and any of them can be used as a backup internet.
+
+So you may have a fiber primary and a VDSL backup, but there are several other options available for a backup internet connection that I want to talk about here.
+
+1. Firstly is cellular backup. So I've seen this a lot in the smaller to medium business range, where they'll have a router capable of using a data SIM to connect out to that 4G or 5G network and use that as a backup internet connection.
+
+Sometimes the problem with that is you don't get a lot of data allowance, so you do have to be careful.
+
+However, like I say, in those small and medium ranges, this can be great so that if the internet provider has a couple of hour outage, your business is continually operating.
+
+2. Satellite internet is another great option as it doesn't rely on any physical infrastructure in the ground, except for the dish on your roof.
+
+
+<img width="678" height="371" alt="image" src="https://github.com/user-attachments/assets/f26e6406-fc5d-4a0b-9663-00e2fa5f3fd8" />
+
+So over on the right there, you've got your router and firewall.
+
+For best practices when you're working in a large organization, you may have redundant firewalls just to make sure that there's no single point of failure.
+
+In the more small to medium size, you're probably just going to have the one.
+
+And then you can see that the two internet service provider services would terminate both onto that firewall. It's important that that firewall is capable of having the multi Wan or the failover type situation. Whether you're looking at having the failover or looking at having the load balancing, just make sure that it does support that sort of option.
+
+
+
+# FIREWALL FUNDAMENTALS
