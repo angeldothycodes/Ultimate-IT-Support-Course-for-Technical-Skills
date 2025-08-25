@@ -72,6 +72,9 @@ But most often than not, the internet service provider will install some sort of
 
 ### Satellite
 
+<img width="800" height="444" alt="image" src="https://github.com/user-attachments/assets/3f266a7b-b3d3-4119-a181-bbc8285846ea" />
+
+
 Satellite internet is a wireless connection that is provided through a satellite dish installed on your
 
 home or business.
@@ -96,3 +99,99 @@ It's a technology that's transforming the way organisations manage their network
 SD-Wan allows organisations to use different types of network connections, so you may have one broadband internet and one LTE, so over four or 5G, and together they're able to create a flexible and secure wide area network.
 
 It uses software defined networking to route traffic across the network based on your application requirements and maybe your network conditions.
+
+
+# Internet Service Level Agreements
+
+An SLA is a contract between the internet service provider and you as the customer, that defines the level of service that you should expect from that provider.
+
+
+**WHAT IS AN SLA FOR INTERNET SERVICES?**
+
+<img width="857" height="431" alt="image" src="https://github.com/user-attachments/assets/cdac4a53-dd8d-41ad-b810-b85af7481657" />
+
+An SLA is a formal agreement between you, the customer, and that internet service provider that outlines the terms and conditions of the service provided.
+
+It defines things like the quality, reliability and availability of that service, as well as the level of support that is going to be provided to you by that internet service provider.
+
+
+**IMPORTANCE OF SLAs FOR INTERNET SERVICES**
+
+<img width="1196" height="643" alt="image" src="https://github.com/user-attachments/assets/476c7f9f-10bd-4edc-83b2-9c721ff68a6b" />
+
+
+SLAs for internet services are important because they provide you with clear expectations of the service that you're paying for.
+
+The SLA sets out the minimum standards of service that the provider must meet, and it outlines the consequences if they fail to meet these standards.
+
+This helps to ensure that the provider delivers a reliable and high quality service.
+
+
+**ELEMENTS OF AN SLA FOR INTERNET SERVICES**
+
+<img width="1166" height="612" alt="image" src="https://github.com/user-attachments/assets/e3e9c139-bb9a-4123-a6ee-f33062f9dcb5" />
+
+
+An SLA for internet services typically includes the following elements.
+
+Firstly, a service description. This outlines the details of the service being provided.
+
+Service performance outlines the performance metrics, such as bandwidth and latency, that the provider must meet.
+
+Customer support defines the level of support the customer must provide to the customer, such as response times and issue resolution.
+
+There may also be a service availability clause, which is the level of service and the level of uptime and downtime that you can experience with that internet service provider.
+
+
+**BENEFITS OF SLAs FOR INTERNET SERVICES**
+
+<img width="1181" height="624" alt="image" src="https://github.com/user-attachments/assets/929b5a69-a22c-4710-8e5d-00935234f9c4" />
+
+SLAs provide several benefits, including giving clear expectations that the customer understands what to expect from their provider.
+
+There's accountability, so the SLA holds the provider accountable for delivering that reliable and high quality service.
+
+SLAs provide customers with remedies. If the provider fails to meet the minimum standards of service, so this may be some money back on your service or a credit for next month's bill.
+
+And there's room for continual improvement. So SLAs encourage providers to continually improve their service to make sure they're meeting the expectations outlined in this SLA.
+
+
+### NOTES:
+
+It's important to note that not all internet services will have an SLA. They are very much on the higher end of the scale for when you're looking at medium, large, or enterprise businesses, but I wanted to make sure that you at least understood what they are so that when you come across them, you have a better understanding of what it means.
+
+
+
+# Backup/Secondary Internet Connections
+
+<img width="925" height="521" alt="image" src="https://github.com/user-attachments/assets/29a027db-bb4e-45d3-89d7-ab9a7b6b64ba" />
+
+
+ In today's connected world, Internet downtime can be costly for businesses. Having a backup internet connection is important because it ensures that you have internet access, even if your primary connection goes down.
+
+This is particularly important for businesses that rely on internet for their operations, as downtime can lead to lost productivity, revenue, and customer satisfaction.
+
+
+**Think of it in two different scenarios**
+
+1. The first scenario is you're an organization that relies heavily on cloud applications. So SaaS applications. Internet downtime means that you're no longer able to reach these and neither are your employees. For every minute or for every hour that they're unable to access it, you need to determine what that revenue loss would look like.
+
+And then think about would a secondary internet provider or this backup internet service be worth that investment?
+
+
+2. The second example is something like a call center.
+You absolutely cannot afford any internet downtime, because that means customers are unable to call in and their frustration with your organization may grow.
+
+
+**=======================**
+
+In these types of scenarios, it is absolutely critical to have even a second or even a third backup
+
+internet connection, just in case the primary goes down. For true redundancy, you want to try and spread them out over different internet service providers, so that if there is a major outage in one of them and you've got two internet services with the same provider, both services aren't going to go down.
+
+By having that layer of separation, where your primary internet connection is with one ISP and your
+secondary internet connection is with a second ISP, you have a more chance of keeping your business operational in case of an incident.
+
+
+**BENEFITS OF A BACKUP INTERNET CONNECTION**
+
