@@ -1063,8 +1063,68 @@ For the Full Scan, you may want to do this in booting into safemode if possible.
 
 For the time being, if there was a threat, we might need to preserve the evidence so we might not want to wipe or re-image the machine straight away unless we're directed by our team leader. Sometimes the IT Security team may need analyze the device for forensics.
 
-7. Finally, once the situation is under controlm do remind the user, but in a friendly way that avoid clicking on links or downloading files from untrusted sources.
-8.  
+7. Finally, once the situation is under control do remind the user, but in a friendly way that avoid clicking on links or downloading files from untrusted sources.
 
-9. 
-10. 
+
+
+# Can you Spot a Phishing Email?
+
+
+phishingquiz.withgoogle.com
+
+
+
+<img width="1708" height="987" alt="image" src="https://github.com/user-attachments/assets/7d52f971-7592-4c20-a9b5-4389e411b2df" />
+
+
+Even if you have the best firewall on the planet, if you're someone in your company clicks on a phishing link, attackers could get in as IT professionals or aspiring IT administrators we're not just responsible for managing devices and networks. We are also responsbile for protecting users and the organization. That's why it's crucial that you know what phishing looks like, and that you can teach others how to spoit it too.
+
+Remember as well that phishing attacks are getting harder to spot thanks to the use of artificial intelligence. Attackers are now creating emails that are more realistic, more personalized and more common than ever before. Whereas spam emails used to be really common because there would be tons of grammatical and spelling mistakes. These days with the help of AI, they have all but eliminated that and these are getting much, much more sophisticated. So spotting the difference between real and fake isn't as easy as it used to be.
+
+
+
+
+# Device Out of Compliance (Windows Updates)
+
+
+**ISSUE:**
+
+"Hi, IT SUpport. I've been on annual leave for a few months and not turned on my company laptop in all that time. When I booted it up this morning, it keeps telling me I am out of compliance and need to contact my system administrator. I am not really sure what this means. Can you please help?"
+
+
+**DISCUSSION:**
+
+We're going to be covering a key help desk scenario when a user's device is out of compliance because it's missing updates. This is a very common issue, especially in modern hybrid environments, and in managed environments where devices must meet certain update requirements to access corporate resources like VPN, email, or cloud apps.
+
+What does out of compliance mean? It typically means that the device does not meet your organization's security or update policies. For example, it's missing critical windows security patches. It may have failed updates from the last cycle, or updates aren't installed within the required time.
+
+If your company uses a MDM tool like Intune, SCCM, or Endpoint Manager, this noncompliant status can cause restrictions like blocking them from their email sync, VPN access, or even logging in.
+
+
+**TROUBLESHOOTING:**
+
+We heard from the call that the user explained that they've been on annual leave for a few months. More than likely, they've fallen out of date with those patching requirements that our systems security polices would set.
+
+1. If the user reports they're blocked or receiving a compliance error, ask what they see. Get them to describe the exact error message to you. If you have permissions to open up the MDM platform, take a look at their company PC name and see what the status is there.
+
+In this case, let's pretend that we have found that the reason for it is that they are out of compliance due to missing updates.
+
+How do we go and run updates manually?
+
+<img width="950" height="544" alt="image" src="https://github.com/user-attachments/assets/906afe57-83b7-4851-a61f-84ee920f1410" />
+
+No matter what operating system they're running, you can just type in the word "update" into the search bar and hit Enter.
+
+<img width="1410" height="734" alt="image" src="https://github.com/user-attachments/assets/33f2d5a8-fe2d-454f-bfc2-d6a3c39c9ebb" />
+
+
+You can just click on the check for updates button. If it finds any, it's going to download and install them. Always restart the machine ven if not prompted. And recheck the compliance in the company portal or MDM tool if you have permissions to do that.
+
+
+
+# How to be that stand-out employee!
+
+
+<img width="932" height="967" alt="image" src="https://github.com/user-attachments/assets/ca2b1865-b574-410d-866f-5d9114d88c6e" />
+
+
