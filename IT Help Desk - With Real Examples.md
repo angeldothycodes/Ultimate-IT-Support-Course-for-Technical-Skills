@@ -1211,3 +1211,121 @@ As IT professionals we should be champions of password hygiene. Here's what we a
 Final thoughts, password management systems help reduce risk, improve support efficiency, and protect both individual users and an organization as a whole.
 
 
+
+# Microsoft Quick Assist
+
+**Microsoft Quick Assist** is a free built-in Windows tool that allows one person to remotely view or control another Windows 10 or 11 computer over the internet.
+
+It's designed to be simple and secure, perfect for helpdesk technicians to remotely troubleshoot without needing full remote desktop infrastructure or third party software.
+
+It's secure, timeless session with a code. It lets you either take control or just view the screen.
+
+It works across most networks and firewall, and it's perfect for quick troubleshooting withour elevated tools.
+
+
+<img width="940" height="686" alt="image" src="https://github.com/user-attachments/assets/42896c93-97cc-46de-a5c7-d65cc6973725" />
+
+
+<img width="429" height="521" alt="image" src="https://github.com/user-attachments/assets/5673b977-3d34-4a85-b1da-5881fb801432" />
+
+
+We can either get help from someone else or if we click on that button, what it's going to do is require us to sign in. After that, it's going to give us a six digit security code to send to whoever is helping us on the other end.
+
+If we're helping someone else, then all we need to do is enter the six digit security code.
+
+Some use case examples of where this can be handy is we're helping a user chnage a setting or install a printer if we're walking a remote employee through the VPN setup, diagnosing error messages on the devices or just verifying configuration on a Windows machine.
+
+**Security reminders**, always make sure to only assist users you trust. So that will be Internal users and verified emloyees. Never, ever ask people for their passwords.
+
+The sessions do time out automatically and always encourage your users to close quick assist fully when you're finished.
+
+This tool can help us if we don't have some other way of remoting onto the machine. Most environments will have something like a remote desktop or SCCM, TeamViewer, remote management tools, etc.
+
+
+
+# Writing Clear Troubleshooting Notes
+
+Whether you're resolving an issue or escalating it, your documentation plays a huge role in communication, accountability, and future reference. It's definitely something that helpdesk managers are going to be keeping a close eye on.
+
+<img width="942" height="560" alt="image" src="https://github.com/user-attachments/assets/b543d803-6b45-4db1-904b-5b99f37699e1" />
+
+
+Good notes are not just for you, they're for your team, your supervisors, and even for legal or compliance reasons.
+
+A well documented ticket avoids duplicated work, helps others pick up where you let off, and becomes a long term asset.
+
+Those who write good notes, I can tell you now, go a lot further than those who are lazy, because at the end of the day, your managers are going to like you better, your teammates are going to like you better, and of course, the customer or client as well is going to get served better.
+
+So think of it like this. If we were to be lazy and just write really bad notes. And then that customers call back in and another team member picked it up.
+
+If they're trying to decipher your notes or there just isn't enough information, you're really not helping them out. And you're probably not helping yourself out either. If you have to refer back to this ticket at a later point in time. And that's why I want to talk now about the core elements of a good note.
+
+
+<img width="841" height="451" alt="image" src="https://github.com/user-attachments/assets/a50469b7-3795-41c5-a81b-285e1bf2698f" />
+
+
+<img width="866" height="457" alt="image" src="https://github.com/user-attachments/assets/3b4c7686-6c7b-4558-a56b-a9a72480f266" />
+
+
+
+
+You don't have to write paragraphs and paragraphs and write a story. But you do need to summarize the key questions what has happened? What have you done to resolve it? What's next?
+
+There's always going to be times when we can't resolve an issue.
+
+
+<img width="895" height="486" alt="image" src="https://github.com/user-attachments/assets/69589a65-652c-4858-bdb5-9d97fe75e933" />
+
+
+Maybe it needs to be escalated up to a higher level, a help desk, or it needs to be escalated to the
+
+system administration, or even maybe the networks team, the developers, or just someone else outside
+
+That's where escalating a ticket comes in.
+
+An escalation is where good notes really shine.
+
+The more context you give, the faster the next tier can act.
+
+Don't just say something like, I couldn't fix it.
+
+Make sure you say what you tried, what failed, and any relevant data that will help them solve it.
+
+This is a really good way to get noticed early on from the higher ups and from other people in other
+
+departments, maybe even a department that you one day see yourself joining.
+
+So if you can impress them with your note taking and your documentation skills, it certainly can go
+
+a long way for your future.
+
+
+<img width="807" height="411" alt="image" src="https://github.com/user-attachments/assets/32349a2b-3e99-4d35-ab62-170f5637fb6c" />
+
+
+You're not writing a novel, but you're not writing in code either.
+
+Keep it professional and clear. Over time, you are going to develop your own style, but consistency and readability are key.
+Make sure to use bullet points if that helps you organize your thoughts. And over time, you might want to start building up some templates.
+
+Using a simple template like this can massively improve your ticket quality and save you time.
+
+
+
+**COMMON MISTAKES TO AVOID:**
+
+<img width="859" height="478" alt="image" src="https://github.com/user-attachments/assets/b33cf425-aac2-438d-8f1b-c0b4de28eeea" />
+
+
+Don't wait to write notes, log as you go or immediately after. Even things that seem obvious can be critical. Documenting an unplugged monitor cable may seem minor, but it might be the exact step that others overlooked.
+
+Good notes don't just help your team, they can help you. They help you analyze how you troubleshoot and can reveal common root causes.
+
+They're also a great foundation for writing documentation and stepping into more senior roles.
+
+
+**summary:**
+
+Take pride in your notes. They reflect your professionalism and your process.
+
+In many cases, your notes are the communication, especially when working with distributed teams or in a multi shift environment.
