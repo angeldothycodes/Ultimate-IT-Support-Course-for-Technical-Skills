@@ -979,3 +979,92 @@ It important to educate users, encoruage them to do regular cleanups, to move ol
 
 
 As a helpdesk professional, your job isn't just to fix the problem, it's to prevent it from happening again.
+
+
+
+# Virus/Malware on a Device
+
+
+**SCENARIO:**
+
+A panieked call from our user who claim thatt hey were browsing a shoe store website. In doing so, they may have accidentally clicked something and downloaded a virus.
+
+
+**DISCUSSION:**
+
+First things first, we really need to talk about an important part of your role in the help desk- that's Incident Response. 
+
+Specifically, when a user contacts you and thinks that they may have done something to compromise the security of their machine- stay calm and professional.
+
+The user is already stressed out as you hear in their voice, and your job is to guide them step by step with confidence.
+
+If they hear you panic, they're going to panic and then no one benefits as a result.
+
+Some steps when we think about Incident response and what we need to do now.
+
+Company by company will have some sort of Incident Response playbook and you really need to understand it and get to grips with it so you can follow the correct procedures.
+
+However, there are going to be a few steps in common and that's what we're going to focus on.
+
+1. First of all, you are going to want to try and isolate the device. In this instance, we know that the user is on the first floor. So we can just pop in the elevator, head down to them and disconnect the device from the network. The goal it to prevent further spread if there is a virus on there. However, if you're not in the same physical location, you can politely ask the user to disconnect from the network. This can be done by turning off the Wi-Fi or unplugging the Ethernet cable.
+
+If they're on a VPN, ask them to disconnect immediately. This helps contain any potential malware before it spreads to shared drives or other systems.
+
+2. Start gathering information. Ask clear and concise questions. This is once the device has been isolated- remember that. Ask them what exactly happened. What website were they on? Did they open an email attachment? Did they click a popup or install a program that turned out to be malicious? When did this happen? These information help you assess the scope and severity of the situation.
+
+In our case, we know they were browsing a shoe store website so we can start to gather some information as to what that website is and what type of file they downloaded. 
+
+
+A really important tip is never shame or blame the user. It discourages people from reporting incidents. Instead, thank them for letting IT know. Early reporting can prevent damage. We want to give the confidence to the users that reporting it is not going to end up in any sort of hot water.
+
+At the end of the day, everyone makes mistakes, right? It's not our job to lay blame. Our job is to handle the incident.
+
+
+3. Start doing all this investigation but we need to escalate or log the incident. Depending on your company's policy, you're going to log a ticket with all the details, tag it as a potential malware or security incident and let the cybersecurity team or the IT team lead immediately know if required.
+
+
+
+4. If you role includes basic remediation, then let's proceed but proceed with caution. Open Windows Security Center > Virus & Threat protection > Protection History. You can see there if a threat is blocked.
+
+<img width="905" height="441" alt="image" src="https://github.com/user-attachments/assets/1bb8a721-cfb1-4369-b394-72150e492dda" />
+
+
+<img width="768" height="484" alt="image" src="https://github.com/user-attachments/assets/c53037ee-8111-4658-ba94-70227840cdb6" />
+
+<img width="809" height="466" alt="image" src="https://github.com/user-attachments/assets/a9025794-6abb-4294-b77e-58966198307d" />
+
+
+<img width="551" height="507" alt="image" src="https://github.com/user-attachments/assets/961054d2-b52b-4646-8f3e-e1a234a229e9" />
+
+
+EICAR file= it is to simulate a virus, all the virus scanners of the world, or at least all the good ones pick it up because of how it is written.
+
+
+
+
+5. We can see the status is removed. We can't just call it a day. We still need to make sure that no company data or no threats still linger in the background. 
+
+<img width="551" height="507" alt="image" src="https://github.com/user-attachments/assets/0392f91e-7dc4-44de-b31e-b99176486c9c" />
+
+
+We can see a bit of details about why it was blocked, the affected items and you can even take some actions like allow. You would only do this in an instance where this was a false positive.
+
+6. What we want to do now is initiatite a scan. Quick scan is okay but better option is to go into the options and do a full scan of the machine.
+
+<img width="548" height="465" alt="image" src="https://github.com/user-attachments/assets/2ddec9ef-2ab0-42c7-9c4d-dec5a886f1ec" />
+
+This chekcs all files and running programs on the hard disk, but this scan can take some time. More importantly is we need to check that our virus and threat protection updates have been running.
+
+
+<img width="715" height="571" alt="image" src="https://github.com/user-attachments/assets/184f4bb6-8806-4881-a952-da62bb634336" />
+
+
+For the Full Scan, you may want to do this in booting into safemode if possible. Otherwise, doing it on the machine whilst it's isolated is absolutely fine.
+
+For the time being, if there was a threat, we might need to preserve the evidence so we might not want to wipe or re-image the machine straight away unless we're directed by our team leader. Sometimes the IT Security team may need analyze the device for forensics.
+
+7. Finally, once the situation is under controlm do remind the user, but in a friendly way that avoid clicking on links or downloading files from untrusted sources.
+8.  
+
+9. 
+10. 
