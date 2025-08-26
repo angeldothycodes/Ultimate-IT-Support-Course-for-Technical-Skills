@@ -838,3 +838,53 @@ So if we were to put another four drives in, that would mean we would have a tot
 ### Conclusion
 
 <img width="855" height="505" alt="image" src="https://github.com/user-attachments/assets/2a5adffe-b07e-43fd-9316-5cbedc198249" />
+
+
+# Storage Attached Network (SAN)
+
+<img width="574" height="408" alt="image" src="https://github.com/user-attachments/assets/08cea260-9d92-45d4-be91-16bc69b5d661" />
+
+**SAN** is a specialized network device that provides access to storage devices such as hard drives and solid state drives.
+
+It allows multiple servers to access the same storage devices, which can be managed centrally.
+
+Sans provide high speed access to data and are commonly used in enterprise environments.
+
+
+<img width="811" height="472" alt="image" src="https://github.com/user-attachments/assets/c11201c3-4aa0-43e7-9e37-a6676cb821e7" />
+
+Imagine you've got two hypervisor servers.
+
+Instead of storing the data on the hypervisor servers themselves, you could store the data of the virtual machines on the SAN.
+
+This means that both servers can see them, and when acting in a cluster, can allow failover between the two in case of a disaster or if maintenance is required whilst you're eliminating the risk of the servers failing, you still have that single point of failure in the SAN itself.
+
+Advanced SAN can come with replication features, which means that two sands with the same data can be present in your network, so that if one was to fail, you could simply use the second to access that data.
+
+<img width="829" height="387" alt="image" src="https://github.com/user-attachments/assets/c80134e0-049b-4beb-9294-d41cd6c25c1e" />
+
+While both SAN and NAS devices provide centralized storage, there are significant differences between the two technologies.
+
+NAS devices are file based and use standard network protocols, such as NFS or SMB to share files over a network.
+
+SAN, on the other hand, are block based and provide access to a storage device at a lower level.
+
+
+<img width="880" height="448" alt="image" src="https://github.com/user-attachments/assets/95e5f5c7-d872-4657-b2ab-26388759e6bb" />
+
+
+SAN provides several benefits over traditional storage solutions, including the high speed access to data.
+
+SAN provide fast access to the data, which is critical in environments that require high performance storage.
+
+This is usually done where, unlike a NAS, where you would connect it into a network switch and everything access it over there.
+
+SAN are often directly plugged with high speed SSH from the server into the sand itself.
+
+SAN allows storage devices to be managed centrally, which can simplify administration and improve efficiency.
+
+SAN also provide capabilities such as Raid and Snapshotting to protect data from loss or corruption.
+
+### Conclusion
+
+<img width="526" height="390" alt="image" src="https://github.com/user-attachments/assets/52bc1975-f0d2-442f-a506-40131f8c16b6" />
