@@ -369,3 +369,472 @@ A layer three switch, on the other hand, operates at the network layer of the OS
 
 
 <img width="883" height="459" alt="image" src="https://github.com/user-attachments/assets/62ef6d82-785e-4a45-a3a7-e470e50ab191" />
+
+
+Switches can also be unmanaged or managed.
+
+A managed switch allows for much more control over the network as it allows you to go in and actually configure some of the more advanced features of a switch.
+
+This includes things like VLANs, quality of service, many security features, all of which you can use to secure your business and better forward that traffic between the devices.
+
+Unmanaged switches, on the other hand, are very much just a plug and play. With no configuration options at all. You simply plug it into power and that's it. Everything is on the same LAN, everything is on the same connection, and there are no security features or no additional options for you to configure.
+
+
+<img width="850" height="412" alt="image" src="https://github.com/user-attachments/assets/d15e8886-3e1c-46b7-89f3-c01eb8fba714" />
+
+
+One really amazing thing with switches these days is they come with something called power over Ethernet capabilities.
+
+This allows a switch to power devices such as IP cameras, wireless access points, or even VoIP phones over an Ethernet cable, eliminating the need for a separate power source for those devices.
+
+Some VoIP phones also have a pass through feature, which means that you can connect them into the switch, and the phone will also connect to the PC so that each port on that switch is doing the data traffic for two devices, freeing up ports for the future.
+
+It's important to note that when you're looking at a switch, not all switches are made the same.
+
+Some only have half the ports that can do power. Some have all the ports, but there are sometimes restrictions on the maximum amount of wattage that a switch will be able to output.
+
+So do your research when you're picking a switch, ensuring that it's going to cover you for now and the future of your business.
+
+
+<img width="831" height="473" alt="image" src="https://github.com/user-attachments/assets/7ff0ae5e-fbb1-4c64-b6fc-a00a0cd324cf" />
+
+
+There are also many different port speeds available with the switch, with one gigabit and ten gigabit being the most common one.
+
+Gigabit switches are suitable for most small and medium sized businesses, while ten gigabit switches are more suited for that larger enterprise type business with higher bandwidth requirements.
+
+Many switches these days have a mix with, say, 24 ports being on the one gigabit speed and potentially four ports being on the ten gigabit speed.
+
+There are higher port speeds than ten gigabit or four switches.
+
+However, these are most often used in enterprise and are quite expensive.
+
+Not everything on a switch can also be fed via an Ethernet cable either.
+
+You have a thing called an SFP module, which is simply a small modular transceiver that you can plug into certain types of switches that can then be connected to servers or other switches for faster speed.
+
+These often traverse over a fiber optic cable, which will cover much later in this course.
+
+
+**Here you can see the SFP modules that we covered, looking a little bit different to your standard Ethernet:**
+
+<img width="853" height="427" alt="image" src="https://github.com/user-attachments/assets/931d6e78-0194-47e0-933a-8b360d292096" />
+
+
+<img width="901" height="434" alt="image" src="https://github.com/user-attachments/assets/7577ffc7-b155-4ee1-aa99-3e0a386857af" />
+
+
+Another really cool feature of switches is something called link aggregation.
+
+It's a feature that allows multiple ports on a switch to be combined into a single logical link, increasing the bandwidth and redundancy.
+
+This is useful in high traffic areas such as data centers or your server infrastructure, where a critical system needs to remain operational in case of a single link failure.
+
+One of the most common places we see this is when connecting two switches together.
+
+Because these are such critical components of your network infrastructure, a single point of failure is just not acceptable.
+
+So by connecting a second or a fourth connection between the two switches, you can use link aggregation to not only provide extra bandwidth, but that extra redundancy as well.
+
+<img width="868" height="487" alt="image" src="https://github.com/user-attachments/assets/6e13cbd7-b7ed-45bd-b762-b5f3c57fa97a" />
+
+
+Stackable switches are a type of network switch that allow multiple switches to be interconnected and operate as a single logical switch.
+
+This is achieved by using special ports on the switches known as stacking ports, which allow the switches to be physically and logically connected to each other.
+
+Once they are stacked, they can be managed as a single unit with a single management interface.
+
+This provides several benefits such as increased port density, improved resilience, and redundancy.
+
+It's also simpler to manage.
+
+There's less maintenance that needs to be done, and it's going to enhance the performance and scalability of your network.
+
+These, again, are more commonly used in enterprise networks and data centers, where things like high availability, reliability and scalability are critical.
+
+
+### Switch Loops
+
+<img width="870" height="507" alt="image" src="https://github.com/user-attachments/assets/dc07e514-69a4-4684-8ea3-71f1d58a5c31" />
+
+Something to be wary of in the IT industry is a switching loop.
+
+A switching loop is a common problem that can occur when two or more switches are connected in a circular manner, causing network packets to loop indefinitely.
+
+What happens is, as more and more loops occur, more and more resources on the switches are being used up.
+
+This can quickly tumble into so many packets being involved in a loop that it's causing all of the switches resources to be consumed, meaning that legitimate traffic can't make it through.
+
+To avoid switching loops, it's important to configure something called Spanning Tree Protocol.
+
+This needs to be enabled on all switches in the network.
+
+It works by disabling the redundant links in the network and preventing loops.
+
+It is a very smart protocol so that if another link goes down, it can automatically open that one back up, ensuring that your interconnectivity continues to work.
+
+I have seen networks completely crippled by switching loops, so it's important that when you're configuring your switches, you are accounting for this and making sure you're implementing the proper controls to make sure this doesn't happen.
+
+
+### VLAN
+
+<img width="891" height="380" alt="image" src="https://github.com/user-attachments/assets/24637f5c-7c47-4129-9b74-ecb99709f392" />
+
+Something of note, and something you're going to hear a lot of in the industry is a virtual local area network, otherwise known as Vlan.
+
+This is a logical network created by partitioning a physical network into separate broadcast domains.
+
+VLANs are super useful for segmenting network traffic, increasing network security, and providing better network performance.
+
+You can couple this with security like access control lists, ensuring that certain VLANs are not allowed to talk to each other.
+
+A good example of this is if you've got a CCTV network at and an IP security camera network that you don't want to be able to talk to your servers or your workstations.
+
+Segment it into its own Vlan and restrict what traffic can make it through to others and what it can actually access.
+
+
+### Security
+
+<img width="575" height="394" alt="image" src="https://github.com/user-attachments/assets/9504d6d2-a795-43fd-b299-721f7579c5f4" />
+
+
+There are many things you can do to ensure that your switching environment is safe, but I wanted to just cover off a few now do not have direct inbound connection to the switches from the internet.
+
+It may seem easy to just open up the Https or the SSH port into the switch, but by doing this you're essentially opening up tac vectors on these platforms.
+
+So try to avoid this and have proper remote management tools in place for when you're needing to access these devices from another location.
+
+It's very common for vendors of switches to release security patches in the firmware, so always ensure that you're applying these whenever any critical vulnerabilities are found.
+
+Use strong passwords in order to access the switches management interfaces and where possible, lock it down using multi-factor authentication.
+
+Always ensure that you're using a high security protocols like Https and SSH over insecure ones like HTTP and telnet.
+
+Many switches come with something called a console port, which allows you to directly plug into the switch and access the management interface directly.
+
+Ensure you're enabling this in places where the switch may be not physically secure, or to ensure that only certain people can access it in the case they need to.
+
+There is much, much more you can do to ensure your switches and environment is safe, so I highly recommend always following the vendor Best Practices guides.
+
+
+<img width="907" height="493" alt="image" src="https://github.com/user-attachments/assets/06c90265-c3ca-4d0d-8266-165b73e6455a" />
+
+
+# UPS Fundamentals (Uninteruptable Power Supply)
+
+
+
+<img width="871" height="434" alt="image" src="https://github.com/user-attachments/assets/80bc34bc-55c5-4762-9132-2f775f721363" />
+
+
+A UPS is a device that provides backup power to critical equipment in the case of a power outage or
+
+surge.
+
+It typically consists of a battery that is charged by the AC power source, and an inverter that converts DC power from the battery to AC power for the connected equipment.
+
+
+<img width="553" height="402" alt="image" src="https://github.com/user-attachments/assets/d52662da-3c2a-4f56-a975-a8f562a368ce" />
+
+UPS devices are essential for businesses that rely on critical equipment such as servers, switches,
+
+and storage devices.
+
+They provide uninterrupted power to these devices, preventing data loss, hardware damage, and downtime.
+
+A sudden loss of power to a server can be absolutely damaging to some of the critical components inside
+
+of it.
+
+Data corruption can occur on the hard disks.
+
+Memory modules can fail, and CPUs can overload.
+
+That's why it's so important when you're implementing a network and server infrastructure to consider
+
+the best ups for the job.
+
+
+<img width="896" height="485" alt="image" src="https://github.com/user-attachments/assets/f1775780-cac4-4580-b6dc-7f881a6b9425" />
+
+
+**UPS come in two main form factors.**
+
+You can get rack mount and stand ups.
+
+Rack mount UPS devices are designed to be mounted in standard server racks and are suitable for data
+
+centers or server rooms.
+
+A stand up.
+
+UPS device, on the other hand, is something that can be floor mounted and are more suitable for small
+
+to medium sized offices or even home offices.
+
+It's important to note that UPS aren't always just for server and networking infrastructure only.
+
+I've seen shops ensure they install them on their pod systems so that in the case of a power outage,
+
+they can continue to operate and continue to take those Eftpos payments.
+
+
+### How to Calculate Power and Output Runtime
+
+<img width="889" height="477" alt="image" src="https://github.com/user-attachments/assets/19ba2f72-8a93-4299-828d-35b7d9fa19d1" />
+
+
+The power output of a UPS device is often measured in volt amps or watts.
+
+To calculate the required power output and runtime of a UPS device, you need to add up the wattage
+
+of all the equipment that will be connected to the UPS, and then factor in the desired runtime.
+
+It's really important here to reach out to the vendors that are providing the UPS devices, as they
+
+are often best equipped to assist you making these decisions.
+
+Some things you need to take into consideration is do you want a UPS that can run your business for
+
+a lot of time in case of these power outages?
+
+Or do you just want enough time to be able to shut down everything safely in the situation that the
+
+power does go down?
+
+Wait for it to come back up and then automatically turn those devices back on.
+
+
+<img width="421" height="228" alt="image" src="https://github.com/user-attachments/assets/1c09cbf2-e519-4644-a79b-6c77d0c06837" />
+
+Many UPS devices come with a network card that allow for remote monitoring and management.
+
+These cards can send alerts to administrators in the event of a power outage.
+
+It can monitor the health of the UPS device and perform firmware updates.
+
+Some UPS devices also come with network cards that allow for the automatic shutdown of connected servers in the event of a power outage.
+
+This ensures the servers are being shut down gracefully, and data is saved before the UPS battery runs out of power.
+
+
+### Security
+
+
+<img width="833" height="389" alt="image" src="https://github.com/user-attachments/assets/cea26768-d9ec-40fb-8e90-ba1cb11c2b5c" />
+
+When we talk about the security of UPS devices of course they need to be physically secure.
+
+So in a server rack that's potentially locked or in a locked room.
+
+But it's also important to protect the management card and the software that runs the UPS devices.
+
+Vices.
+
+Always ensure your UPS devices do not have connectivity inbound from the internet and if possible,
+
+prevent the outbound communication unless a firmware update is required to be downloaded.
+
+Use strong passwords and two factor authentication where possible.
+
+Always opt for using Https and SSH over unencrypted protocols like HTTP and telnet, and check the management
+
+console frequently, being sure to set up remote monitoring and alerting to report any faults with the
+
+device.
+
+This can be things like the battery overheating, the battery starting to degrade, or when there's
+
+a power outage.
+
+
+### Conclusion
+
+<img width="887" height="472" alt="image" src="https://github.com/user-attachments/assets/29aac395-514c-43f2-9f13-9f2fccd331c6" />
+
+
+# Network Attached Storage (NAS)
+
+<img width="792" height="491" alt="image" src="https://github.com/user-attachments/assets/ee5d426f-ac28-4966-9a6a-f31f3780833b" />
+
+And this device is a storage device, but much different to an external hard drive.
+
+It's connected to your network and provides storage space that can be accessed by multiple devices at once.
+
+In essence, it is a file server that allows users to store and share files over a network.
+
+<img width="850" height="471" alt="image" src="https://github.com/user-attachments/assets/3eea46bc-4946-4297-9ddd-22cd9bf941c5" />
+
+
+And this device typically consists of one or more hard drive devices, a network interface, and a software operating system that manages the storage and file sharing.
+
+The device connects to the network using an Ethernet cable or perhaps fiber optic, and can be accessed by devices on the network using a variety of protocols such as SMB, NFS, and FTP.
+
+
+<img width="865" height="482" alt="image" src="https://github.com/user-attachments/assets/7d2799e1-0d23-44b0-a3ea-45da898b95c1" />
+
+NAS device can offer several benefits for businesses, including centralized storage.
+
+All files are stored in one location, making it easy to manage and backup the data.
+
+There's data protection with Raid technology, which protects against data loss in the event of a hard drive failure.
+
+One of the most common uses for NAS devices is it's a great target for your backups.
+
+By using different backup software and targeting the destination as the NAS for your server and workstation backups, it'll allow you to have your backups on a different storage medium that you can securely lock down in case of a disaster.
+
+Remember, a NAS device is still on your local network, so do not just rely on this for your backups.
+
+You need to always ensure that you have an air gapped copy of your backup offsite so that if there is a flood or a fire, you're not losing all your workstations, all your servers, all your NAS devices, all at once.
+
+And those are the only copies of your data that exist.
+
+
+### Security
+
+<img width="885" height="484" alt="image" src="https://github.com/user-attachments/assets/3a70ad39-e49a-41bc-9948-addb0e2fce61" />
+
+have direct inbound
+
+internet connection.
+
+This means no forwarding ports through to the NAS device, as there are many vulnerabilities usually
+
+floating around, that can allow hackers to gain access into your network device and potentially steal
+
+your data.
+
+Make sure you're using strong passwords and, where possible, two factor authentication.
+
+This is especially important for any administrator users on that NAS device.
+
+Make sure you're locking down the rights of Non-admin users.
+
+This means that they shouldn't be able to potentially log in and make any changes to security permissions,
+
+or the actual interface itself.
+
+They should purely be using it as a file share only.
+
+Please ensure that you're physically securing the devices as like external hard drives.
+
+They are still extremely portable, so easy targets for thieves.
+
+And the last one for this slide is download the latest security packages for the NAS.
+
+Vendors are constantly releasing updates to patch these certain vulnerabilities, so it's important
+
+that you're always downloading and installing these.
+
+
+### Types of NAS Devices
+
+<img width="846" height="465" alt="image" src="https://github.com/user-attachments/assets/87ae5148-c500-41b9-998d-bfb1c6729bbc" />
+
+There are several types of NAS devices available in the industry.
+
+These include consumer grade, which are really designed for home users and typically have a limited
+
+number of drive bays and features.
+
+You can get business grade NAS devices, which are really targeted at more small to medium businesses.
+
+These offer those more advanced features.
+
+An enterprise grade NAS are designed specifically for large organizations and offer advanced features
+
+such as scalability, high availability and even replication between two NAS devices.
+
+
+### RAID
+
+
+<img width="840" height="401" alt="image" src="https://github.com/user-attachments/assets/8d177ba2-c771-4616-af6d-788a154cb337" />
+
+Raid is a technology that allows multiple hard drives to be used together to improve performance, data
+
+redundancy and data recovery.
+
+There are different types of Raid available, each with its own advantages and disadvantages.
+
+
+<img width="832" height="432" alt="image" src="https://github.com/user-attachments/assets/1712ff54-5415-4cbd-862f-2d97446e660a" />
+
+
+**RAID 0** = This type of Raid is designed for performance and uses data striping to split data across multiple drives.
+
+So if you had four files that you were working on, it's possible that two would be saved on one hard
+
+drive and two would be saved on the other hard drive. But to you, you only see one hard drive presented to yourself.
+
+If there were two one terabyte hard drives located in that raid zero, that would mean you have two
+
+terabytes of usable data.
+
+However, there is a drawback.
+
+There is no redundancy for Raid zero. If one of those hard drives was to fail, all of your data would be unaccessible.
+
+If you are using Raid zero in any circumstances, it is imperative that you back up that data in case of a hard drive failure.
+
+<img width="797" height="409" alt="image" src="https://github.com/user-attachments/assets/c5879468-6a0e-43a3-98cb-d5a49892e98f" />
+
+***RAID 1** = A type of Raid designed for data redundancy, and uses mirroring to create an exact copy of data across two drives.
+
+If you've got two one terabyte drives, your usable storage is only one terabyte.
+
+But that data is mirrored.
+
+So if one of those hard drives is to fail, you've always got another copy of your data. 
+
+In a NAS device, it would simply just then involve taking out the faulty hard drive, putting a new working hard drive in, and it will replicate all that data back, ensuring that you continue to have that exact copy across two devices.
+
+This rebuild does take some time, so it's important to monitor that and still have your backups both on premises and in the cloud in case of a disaster.
+
+
+<img width="795" height="484" alt="image" src="https://github.com/user-attachments/assets/5602f803-6d06-4222-b63d-53448388bca1" />
+
+
+**RAID 5** = uses data striping with parity to provide both performance and data redundancy In our example
+
+here, we have three hard drives, each at one terabyte.
+
+Our usable capacity is only two terabytes because there is one terabyte of parity data.
+
+This Raid type can support one disk failure.
+
+So if any of these disks were to fail, we would continue to operate.
+
+Restoration is much similar to the other Raid one where you would just take the faulty hard drive out,
+
+put a new working one in, and it would rebuild the raid.
+
+
+<img width="861" height="488" alt="image" src="https://github.com/user-attachments/assets/81bc0c9b-e7d9-4387-ad8e-9add64ee4448" />
+
+
+**RAID 6** = is that level up from RAID 5.
+
+It again uses data striping with parity to provide that performance and data redundancy.
+
+But in this case, you can support two disk failures.
+
+Raid six has a minimum of four disks allowed in the configuration.
+
+In this scenario, if each of those were one terabyte, you would only get two terabytes of usable space,
+
+but you would have that double parity so that two disks can fail and you would still be operational.
+
+Rebuilding the raid is the exact same.
+
+If a disk failed, you would just take that one out, put a new one in, and allow the raid to rebuild.
+
+As you build on a raid six, you still only need double parity.
+
+So if we were to put another four drives in, that would mean we would have a total of six terabytes usable space with two terabytes being used for the parity.
+
+
+### Conclusion
+
+<img width="855" height="505" alt="image" src="https://github.com/user-attachments/assets/2a5adffe-b07e-43fd-9316-5cbedc198249" />
