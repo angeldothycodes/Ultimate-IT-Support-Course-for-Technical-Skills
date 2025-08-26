@@ -328,3 +328,44 @@ A router, on the other hand, is a device that connects multiple devices on a loc
 If you're confused because you only have one device at home that appears to do both.
 
 This is because most modems double as routers these days.
+
+How do modem routers work?
+
+Well, the modem side of the device connects to your ISP's network and converts the data from your computer or your network into a format that can be transmitted over the internet.
+
+A router on the other hand, does all the routing between the devices on your local network and connects that local network to the internet through the modem.
+
+
+<img width="840" height="466" alt="image" src="https://github.com/user-attachments/assets/726669ca-1603-4ed5-b2ca-b8f3201ce521" />
+
+
+Why, as a business, should you go with a firewall instead of a modem router?
+
+Well, firewalls are specially designed security devices that are going to protect your network from advanced cyber threats.
+
+A firewall provides more granular control over network traffic than a modem router.
+
+Making it easy to configure advanced security policies and protocols.
+
+Firewalls monitor the network traffic and block any unauthorized traffic outbound.
+
+There's also a lot more support for things like VPNs within a firewall, which will allow you to set up those client and site to site VPN capabilities.
+
+I've seen many businesses survive fine with a modem router in their organization.
+
+However, as you start to grow and your attack vector becomes bigger, it's certainly worth at least thinking about.
+
+Should you be moving to a network firewall solution instead?
+
+
+# Switch Fundamentals
+
+<img width="874" height="489" alt="image" src="https://github.com/user-attachments/assets/b4e18a2a-054c-4adc-a485-ed5f8be54ab5" />
+
+
+A layer two switch operates at the data link layer of the OSI model, and forwards data based on the Mac address of different devices.
+
+A layer three switch, on the other hand, operates at the network layer of the OSI model and forwards data based on the IP addresses.
+
+
+<img width="883" height="459" alt="image" src="https://github.com/user-attachments/assets/62ef6d82-785e-4a45-a3a7-e470e50ab191" />
