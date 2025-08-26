@@ -888,3 +888,66 @@ SAN also provide capabilities such as Raid and Snapshotting to protect data from
 ### Conclusion
 
 <img width="526" height="390" alt="image" src="https://github.com/user-attachments/assets/52bc1975-f0d2-442f-a506-40131f8c16b6" />
+
+
+
+# External Hard Drives
+
+<img width="857" height="522" alt="image" src="https://github.com/user-attachments/assets/361366ff-73ec-4cb8-a9c5-7549e49b7cf7" />
+
+
+An external hard drive is a portable storage device that connects to a computer via a USB or some other interfaces.
+
+It typically contains a hard disk drive inside of it, or perhaps a solid state drive, and provides additional storage space for files and data.
+
+<img width="1063" height="596" alt="image" src="https://github.com/user-attachments/assets/f96f1ab0-dd4b-425c-a81d-5840049a84ac" />
+
+
+External hard drives are often used in a variety of ways in businesses, including backup and recovery.
+
+External hard drives can be used to backup critical data and provide a way to recover data in case of a disaster or system failure.
+
+It can be used to share files between computers or with clients.
+
+They're extremely portable, meaning they can be used on the go and used to access data while traveling or in remote locations.
+
+They can be used to expand the storage capacity of a computer, which can be especially useful in laptops and other type of mobile devices.
+
+
+### SECURITY 
+
+<img width="830" height="440" alt="image" src="https://github.com/user-attachments/assets/e3ed2bfd-e1d6-4e7d-a2ca-f9dc15bbfe7d" />
+
+The security of external hard drives is so important.
+
+Always ensure that external hard drives are placed in secure locations as they are easily targetable
+
+by thieves.
+
+Even just taking your eye off of it for a second would leave plenty of time for a thief to walk on by, unplug it from your computer and run away.
+
+One of its upsides being that it's so portable is also one of its downsides, in that it's so easy to
+
+take.
+
+I highly recommend looking at encrypting your external hard drive.
+
+This means that every time it's plugged into a new device, you would need to enter some sort of password
+
+in order to access the data on it.
+
+Without that password, the data would be completely unreadable, meaning that your data was safe in
+
+the case that it was stolen.
+
+Another security tip is please never plug an unknown USB or external hard drive into your device.
+
+Hackers will often leave a USB or external hard drives lying around with malicious payloads on them.
+
+As soon as you plug them into your device, that's it.
+
+They can obtain remote access.
+
+They can steal your personal data.
+
+So always ensure that the USBs and external hard drives you're using are from trusted sources only.
