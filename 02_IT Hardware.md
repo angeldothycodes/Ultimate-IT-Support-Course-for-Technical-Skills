@@ -239,3 +239,63 @@ And then you can see that the two internet service provider services would termi
 
 
 # FIREWALL FUNDAMENTALS
+
+<img width="1051" height="506" alt="image" src="https://github.com/user-attachments/assets/e6ae4ddc-90aa-4c4e-91ca-c76fe4a51299" />
+
+
+A network firewall is a security device that is designed to prevent unauthorized access to your network.
+
+Think of it as a barrier between your network and the internet.
+
+It's important not to confuse a network firewall with an application firewall that you might find on a windows PC or a server.
+
+Application firewalls are designed to protect individual devices, whereas a network firewall is designed to protect your entire fleet of workstations, servers, and other network devices.
+
+
+<img width="698" height="513" alt="image" src="https://github.com/user-attachments/assets/7ba20392-0e44-42f9-b6f2-8391325a80da" />
+
+So how does a network firewall work?
+
+Well, you would plug it into your internet and you would plug it into your LAN and it examines the incoming and outgoing network traffic and determines whether it should be allowed or blocked based on a set of rules you define.
+
+These rules are based on a number of factors, such as the source of the traffic, the destination of the traffic, and the types of traffic.
+
+An example here is if you wanted to block a certain country from accessing your data inbound, or if you wanted to block your employees from visiting certain websites, you would put these rules in the firewall to prevent that access that's restricted.
+
+
+<img width="564" height="454" alt="image" src="https://github.com/user-attachments/assets/975f8757-d66a-432c-84cd-672719f0e765" />
+
+
+<img width="880" height="418" alt="image" src="https://github.com/user-attachments/assets/4b8034d3-3d59-4286-90d7-2e7ce2824e16" />
+
+
+<img width="886" height="479" alt="image" src="https://github.com/user-attachments/assets/0609b13b-4a49-4258-a2e8-b2bf0f58dabf" />
+
+
+
+Another huge advantage of these firewalls is the ability to offer virtual private networks, or VPNs for short.
+
+There are two that I really want to cover off in this lecture, which is the site to site VPNs and the client to site VPNs.
+
+Starting with the site to site VPNs, firewalls offer the capability to allow remote offices to securely connect together.
+
+It enables secure communication between two or more office locations.
+
+
+
+<img width="861" height="419" alt="image" src="https://github.com/user-attachments/assets/225d7e0e-e1c6-4037-a427-05f6f3f31c2b" />
+
+
+A good example of this is the Hub and Spoke network.
+
+That's where you have a head office.
+
+Let's pretend in our scenario it's in New York and in this head office exists all your servers and main applications.
+
+Your remote sites in Las Vegas, Houston and Washington need access to these, but you don't feel safe about opening these up to the internet and allowing them to connect through.
+
+That's where a site to site VPN comes in handy.
+
+You securely establish that site to site VPN between each of your remote offices and the head office, and it creates a tunnel for all of that data to funnel through, ensuring that it is encrypted, safe and easy to use for your employees.
+
+
