@@ -299,3 +299,32 @@ That's where a site to site VPN comes in handy.
 You securely establish that site to site VPN between each of your remote offices and the head office, and it creates a tunnel for all of that data to funnel through, ensuring that it is encrypted, safe and easy to use for your employees.
 
 
+
+<img width="901" height="467" alt="image" src="https://github.com/user-attachments/assets/e8b2ca9d-dcde-4bcb-8ca2-292514c30b7c" />
+
+The other type of VPN I want to talk about is client to site VPN.
+
+This allows individual users to securely access the network from a remote location.
+
+In the modern world of remote working, where users can work from home or even overseas, a client to site VPN allows them to securely establish a tunnel from their workstation, whether that be a laptop, a PC, a tablet, or a mobile device, and securely VPN into the office's network, which makes sure that that data is encrypted as it goes back and forth. 
+For added security, you can couple this with things like multi-factor authentication, ensuring that every time that user needs to connect into the VPN, they're entering their username and password as well as that multi-factor authentication.
+
+You can also get certificate based client to site VPNs, which means that the individual machines have to have a certificate installed on them in order to authenticate. This protects your network from outside attack, where attackers may try and breach the VPN services in order to gain access to your network's infrastructure.
+
+
+<img width="859" height="424" alt="image" src="https://github.com/user-attachments/assets/f8e631b7-9c03-4c1f-82f3-f6d833c4963a" />
+
+
+
+# Modem and Router Fundamentals
+
+<img width="694" height="489" alt="image" src="https://github.com/user-attachments/assets/d5f0acc7-0778-4604-b407-c42e2b4c1bb6" />
+
+
+A modem is a device that connects your computer or network to the internet through your internet service provider.
+
+A router, on the other hand, is a device that connects multiple devices on a local network and routes data between them in the internet.
+
+If you're confused because you only have one device at home that appears to do both.
+
+This is because most modems double as routers these days.
