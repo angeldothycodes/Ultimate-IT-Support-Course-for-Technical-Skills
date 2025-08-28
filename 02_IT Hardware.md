@@ -1019,3 +1019,29 @@ Overall, wireless controllers are a really powerful tool for managing large wire
 They provide centralized control, advanced features, and easy scalability, making them an ideal solution for businesses of all sizes.
 
 
+
+# Wireless Access Points
+
+<img width="1012" height="530" alt="image" src="https://github.com/user-attachments/assets/4400410b-4281-4030-8081-472a2ee800d2" />
+
+
+A wireless access Point is a networking device that allows wireless devices to connect to wired technology using Wi-Fi technology.
+
+It acts as a central transmitter and receiver of wireless signals, enabling devices such as laptops, smartphones, tablets, and other network devices to access the internet or other network resources.
+
+Whilst most routers have Wi-Fi inbuilt into them, a wireless access point is a separate network device. They are most often used when wireless coverage is important over a large area, such as a building with multiple floors or with a large office space.
+
+
+
+<img width="1061" height="544" alt="image" src="https://github.com/user-attachments/assets/abf8ef18-d69c-43b0-9849-c56a25b2c3ea" />
+
+
+There are also different models for indoor and outdoor access points, due to outdoor models needing a bit more protection from the elements.
+
+
+Wireless access points operate on two different frequencies 2.4GHz and five gigahertz. The 2.4GHz frequency has a much longer range, making it suitable for covering larger areas, but it's
+
+more susceptible to interference from other devices.
+
+The five gigahertz frequency has a shorter range, but offers much faster speeds and is less prone to the interference.
+
