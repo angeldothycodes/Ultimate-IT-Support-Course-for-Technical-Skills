@@ -1049,3 +1049,39 @@ The five gigahertz frequency has a shorter range, but offers much faster speeds 
 <img width="992" height="488" alt="image" src="https://github.com/user-attachments/assets/23b02ca0-df35-4890-91cf-eb3fe7f54825" />
 
 
+Wireless access points can operate on different channels, and it's important to avoid channel interference, which can cause signal degradation and slow down the network.
+
+Selecting the right channel and adjusting power settings can help minimize interference and improve performance.
+
+Fortunately, most wireless access points these days have some sort of channel interference detection, which can automatically move the channels if it detects something in your area, could be interfering with the wireless.
+
+
+
+<img width="922" height="452" alt="image" src="https://github.com/user-attachments/assets/41e79d78-c77d-4498-a088-52bb21aa10c1" />
+
+
+SSID Broadcasting is the process of making the network name visible to users, allowing them to connect to the network.
+
+We've probably all been to cafes and fast food restaurants that provide free WiFi, so the Ssid is simply that network name that you connect to.
+
+You can hide the SSD, which can provide some security benefits, but it can also make it more difficult for users to connect to the network and may not be effective against more determined attackers.
+
+That's because applications exist that can sniff out the different types of ssids broadcasting in an area.
+
+
+
+<img width="906" height="438" alt="image" src="https://github.com/user-attachments/assets/05ebd3c0-61e6-4fe9-a0b2-2116b52845d7" />
+
+There are different types of security when it comes to how you connect to the wireless.
+
+**WPA** was developed as a replacement for a very old protocol called WEP, and it provides much better security.
+
+**WPA2** is the most commonly used protection protocol, and it allows you to enter a password in order to connect to that wireless network.
+
+**WPA3** is the latest version of Wi-Fi Protected Access Protocol. It provides more advanced security features than Wpa2, such as enhanced encryption and improved password protection.
+
+**EAP** is a framework for authentication that supports multiple methods, not just a password. You can use digital certificates and smart cards to connect your users devices into your wireless network. These are much more difficult to obtain than a password, so it's worth considering if this is right for you.
+
+**802.1X** is a protocol that provides a framework for port based network access control. It's often used in conjunction with EAP for authentication, and can allow users to use their local credentials or the credentials that they access their workstation with to connect to that Wi-Fi device.
+
+
