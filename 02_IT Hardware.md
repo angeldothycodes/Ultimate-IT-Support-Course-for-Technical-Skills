@@ -1045,3 +1045,7 @@ more susceptible to interference from other devices.
 
 The five gigahertz frequency has a shorter range, but offers much faster speeds and is less prone to the interference.
 
+
+<img width="992" height="488" alt="image" src="https://github.com/user-attachments/assets/23b02ca0-df35-4890-91cf-eb3fe7f54825" />
+
+
