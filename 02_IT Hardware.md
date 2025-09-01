@@ -1085,3 +1085,18 @@ There are different types of security when it comes to how you connect to the wi
 **802.1X** is a protocol that provides a framework for port based network access control. It's often used in conjunction with EAP for authentication, and can allow users to use their local credentials or the credentials that they access their workstation with to connect to that Wi-Fi device.
 
 
+# SERVER HARDWARE
+
+
+<img width="1070" height="481" alt="image" src="https://github.com/user-attachments/assets/464225ec-bfa6-4788-a7e3-351f863e23fe" />
+
+<img width="354" height="553" alt="image" src="https://github.com/user-attachments/assets/ab107fce-5489-4e94-af44-2dcc51556600" />
+
+The hardware components that go into a server can vary depending on the intended use and the requirements of the specific applications or roles that you're running.
+
+However, let's just cover off some of the most common hardware components found inside a server.
+
+<img width="1145" height="596" alt="image" src="https://github.com/user-attachments/assets/6fb708e9-cf57-4610-a435-a87ff2c35a06" />
+
+
+
