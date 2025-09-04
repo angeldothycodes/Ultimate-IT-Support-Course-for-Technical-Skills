@@ -1122,4 +1122,24 @@ Workstations will often just have one network interface, whereas servers will ha
 
 
 
+# WINDOWS SERVERS
+
+<img width="996" height="500" alt="image" src="https://github.com/user-attachments/assets/a3970c6f-f426-4f2a-8390-c0877754e6f0" />
+
+
+
+<img width="962" height="562" alt="image" src="https://github.com/user-attachments/assets/f813026f-bab5-480c-b628-fa6295485fc9" />
+
+
+<img width="889" height="550" alt="image" src="https://github.com/user-attachments/assets/2e970c93-8d50-46a5-96c6-d9c0f78f8eb6" />
+
+<img width="949" height="536" alt="image" src="https://github.com/user-attachments/assets/bc001d26-4a0b-4458-bbf4-3a13b6f6979d" />
+
+<img width="931" height="496" alt="image" src="https://github.com/user-attachments/assets/ac8ec6e3-e29c-45db-ac08-996ca7a08fdd" />
+
+
+
+
+
+
 
