@@ -1140,6 +1140,37 @@ Workstations will often just have one network interface, whereas servers will ha
 
 
 
+<img width="943" height="490" alt="image" src="https://github.com/user-attachments/assets/c1d75ff4-e88e-46af-94e2-c3d09b790670" />
 
 
+<img width="893" height="462" alt="image" src="https://github.com/user-attachments/assets/9784049d-d17e-491a-aea1-ed9a83eb1ec0" />
+
+
+Virtualization is not specific to Microsoft, and there are other platforms out there that can do it, but Microsoft's virtualization platform, Hyper-V is definitely one of the more popular ones in the industry.
+
+
+<img width="905" height="471" alt="image" src="https://github.com/user-attachments/assets/76ad3143-8fe6-4208-9c3d-3877f9ef52fc" />
+
+
+<img width="889" height="540" alt="image" src="https://github.com/user-attachments/assets/4d70cff3-6146-460a-b117-dd929dd82fc6" />
+
+<img width="937" height="486" alt="image" src="https://github.com/user-attachments/assets/bf819715-9edd-4fc6-8675-7c0e247a27b6" />
+
+
+<img width="958" height="499" alt="image" src="https://github.com/user-attachments/assets/98641394-5e14-42e8-bf3b-572fcbc17bcc" />
+
+
+There are many third party applications as well that you can store on Windows Server for things like finance, marketing, medical software, and just so many different tools available to each industry.
+
+It's important to consider when you're running up an environment. If these applications should be installed on a server, and what are the recommended specs in order to run it.
+
+
+
+<img width="878" height="500" alt="image" src="https://github.com/user-attachments/assets/48a53094-5ea3-41bb-805f-f180c07c2b7e" />
+
+
+Microsoft has a huge library of how you can best secure your Windows Server environments, so I highly recommend you check them out and learn what steps you can take in order to protect your business.
+
+
+<img width="938" height="496" alt="image" src="https://github.com/user-attachments/assets/9c20dd49-6e68-44fa-9853-cded96734ee7" />
 
