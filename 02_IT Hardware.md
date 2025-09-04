@@ -1100,3 +1100,26 @@ However, let's just cover off some of the most common hardware components found 
 
 
 
+**NIC** 
+
+Workstations will often just have one network interface, whereas servers will have many. It's not uncommon to see four network interfaces bound using link aggregation and connected into a switch. It's also important to note that not many servers out there use wireless. Having that wired connection is so much more reliable and needed for server infrastructure.
+
+
+<img width="991" height="533" alt="image" src="https://github.com/user-attachments/assets/af7294f4-98e7-44ff-b6c9-114fe04179d8" />
+
+
+<img width="992" height="520" alt="image" src="https://github.com/user-attachments/assets/9a0e547d-8b68-46ef-8b8f-65682c479ce7" />
+
+
+<img width="1028" height="456" alt="image" src="https://github.com/user-attachments/assets/9429c746-5f9d-45f3-9dd0-8cd92ae4668e" />
+
+
+<img width="1000" height="529" alt="image" src="https://github.com/user-attachments/assets/bd669ea1-23ec-4c93-9576-7004eae8bc18" />
+
+
+<img width="986" height="468" alt="image" src="https://github.com/user-attachments/assets/dc4b27b5-c68f-4913-9cd1-2c66a7aa1f4e" />
+
+
+
+
+
