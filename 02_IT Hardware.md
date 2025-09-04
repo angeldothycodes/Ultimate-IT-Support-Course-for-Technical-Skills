@@ -1190,3 +1190,102 @@ Microsoft has a huge library of how you can best secure your Windows Server envi
 <img width="722" height="392" alt="image" src="https://github.com/user-attachments/assets/4bbdacf3-464c-4d2f-ac71-ea3424f1dde0" />
 
 
+
+In addition to these common server roles, Linux servers can be configured to perform a wide variety of other tasks such as hosting game servers, serving media content, and providing remote access.
+
+One of the key advantages of Linux servers is their security. Linux servers are less susceptible to viruses, malware, and other security threats, making them an ideal choice for organizations that require high levels of security.
+
+This, of course, is only true if you continuously work to improve the security of your organization.
+
+Don't expect just to install a Linux server and it stays safe forever.
+
+Another advantage of Linux servers is the reliability.
+
+Linux servers are known for their stability and can be run without needing to be rebooted constantly.
+
+This makes them an ideal choice for mission critical applications that require high levels of uptime and availability.
+
+Linux also uses a lot less resources than your graphical interface operating systems like Windows and Mac OS.
+
+There are devices that can run Linux that fit into the palm of your hand.
+
+<img width="1006" height="411" alt="image" src="https://github.com/user-attachments/assets/5261312f-92af-48ae-b5d6-a062d2b16738" />
+
+
+Linux has many different distributions or distros for short, which are variations of the operating system that are customized for specific application or user needs.
+
+
+<img width="696" height="539" alt="image" src="https://github.com/user-attachments/assets/15f9064c-94eb-4b75-9a15-364b62263c4d" />
+
+Linux has many different distributions or distros for short, which are variations of the operating system that are customized for specific application or user needs.
+
+Some popular ones that you'll probably hear around the industry is Red hat, Ubuntu Server, CentOS, and Debian.
+
+But there are so, so many more.
+
+This is because of that open source software, which allows many people to come together and build the operating system that they want or need.
+
+
+
+<img width="690" height="484" alt="image" src="https://github.com/user-attachments/assets/cca4080f-17a7-4406-a671-8ec6cb631b23" />
+
+
+<img width="1018" height="556" alt="image" src="https://github.com/user-attachments/assets/6e8262c2-827a-417a-b0d9-a82cfa60cb86" />
+
+
+<img width="903" height="558" alt="image" src="https://github.com/user-attachments/assets/e9c6e00d-3311-4594-b43a-9fae97997d95" />
+
+
+
+# Network Cabinets and Server Racks
+
+<img width="1124" height="565" alt="image" src="https://github.com/user-attachments/assets/cb33b828-77e9-49dc-a0b6-5ab0aa9f2f6e" />
+
+
+<img width="815" height="437" alt="image" src="https://github.com/user-attachments/assets/7049e3d1-46fa-431b-b9e3-59f87fd27383" />
+
+
+<img width="639" height="544" alt="image" src="https://github.com/user-attachments/assets/743afba5-36d7-4c43-b449-ebd59c21975c" />
+
+
+<img width="1169" height="499" alt="image" src="https://github.com/user-attachments/assets/ecb4cc01-c505-4889-ac46-52b61b2bb1a8" />
+
+
+
+Another factor to consider is the cooling and ventilation of the network cabinet or rack.
+
+Some server racks have built in fans or ventilation systems to help keep equipment cool and prevent overheating.
+
+For server racks, it's not uncommon to have some sort of system where cool air is pumped through the front and warm air is extracted through the back.
+
+The way the fans are pointing within the servers themselves allow this to happen.
+
+
+<img width="1061" height="497" alt="image" src="https://github.com/user-attachments/assets/32f40ced-6f24-4db0-b8a4-4787cbbd6fa7" />
+
+
+<img width="819" height="441" alt="image" src="https://github.com/user-attachments/assets/1d625a53-4a73-411b-a7e7-d345cd606c75" />
+
+
+
+# IP Security Cameras
+
+
+<img width="819" height="345" alt="image" src="https://github.com/user-attachments/assets/b9fef2ad-180d-4fed-b20f-9ee593a86ff4" />
+
+
+
+<img width="856" height="429" alt="image" src="https://github.com/user-attachments/assets/211dfeed-3433-4b80-ad52-f6717ef7f15b" />
+
+
+
+<img width="856" height="429" alt="image" src="https://github.com/user-attachments/assets/1042f90c-8761-432d-a55c-44c7613d075f" />
+
+
+<img width="410" height="230" alt="image" src="https://github.com/user-attachments/assets/3c32d5ec-d939-4305-aa38-ed4a4242e54e" />
+
+
+It's important that you do not have security cameras publicly exposed to the internet inbound, as there are several ways that hackers can use to breach these devices and then monitor your video surveillance.
+
+If you need remote access, look at methods that doesn't involve this, like having some sort of app or SaaS based security camera application where the cameras connect outbound through your firewall back to this central point.
+
