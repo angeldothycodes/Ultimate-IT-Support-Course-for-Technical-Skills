@@ -1020,7 +1020,7 @@ They provide centralized control, advanced features, and easy scalability, makin
 
 
 
-# Wireless Access Points
+# WIRELESS ACCESS POINTS
 
 <img width="1012" height="530" alt="image" src="https://github.com/user-attachments/assets/4400410b-4281-4030-8081-472a2ee800d2" />
 
@@ -1175,7 +1175,7 @@ Microsoft has a huge library of how you can best secure your Windows Server envi
 <img width="938" height="496" alt="image" src="https://github.com/user-attachments/assets/9c20dd49-6e68-44fa-9853-cded96734ee7" />
 
 
-# Linux Servers
+# LINUX SERVERS
 
 <img width="297" height="392" alt="image" src="https://github.com/user-attachments/assets/a892d7de-4ec1-4886-99d1-43794d441e71" />
 
@@ -1237,7 +1237,7 @@ This is because of that open source software, which allows many people to come t
 
 
 
-# Network Cabinets and Server Racks
+# NETWORK CABINETS AND SERVER RACKS
 
 <img width="1124" height="565" alt="image" src="https://github.com/user-attachments/assets/cb33b828-77e9-49dc-a0b6-5ab0aa9f2f6e" />
 
@@ -1268,7 +1268,7 @@ The way the fans are pointing within the servers themselves allow this to happen
 
 
 
-# IP Security Cameras
+# IP SECURITY CAMERAS
 
 
 <img width="819" height="345" alt="image" src="https://github.com/user-attachments/assets/b9fef2ad-180d-4fed-b20f-9ee593a86ff4" />
@@ -1288,4 +1288,200 @@ The way the fans are pointing within the servers themselves allow this to happen
 It's important that you do not have security cameras publicly exposed to the internet inbound, as there are several ways that hackers can use to breach these devices and then monitor your video surveillance.
 
 If you need remote access, look at methods that doesn't involve this, like having some sort of app or SaaS based security camera application where the cameras connect outbound through your firewall back to this central point.
+
+
+
+# ETHERNET CABLES
+
+<img width="1080" height="619" alt="image" src="https://github.com/user-attachments/assets/a7c030ad-c80e-4de2-9cf7-3635e761853e" />
+
+
+Category six can transmit up to ten gigabit a second at around 30 to 55m.
+
+Past that you are going to see some degradation of service, and this is potentially where you want to start looking at fiber optic cables.
+
+Category six is an improved version over Cat six, and it can transmit data over speeds up to ten gigabit, but these still only work up to about 100m past that. Again, fiber optic is your thing.
+
+
+The types of Ethernet cables you choose will depend on the network requirements, distance, and the speed needed.
+
+Each type of Ethernet cable has different specifications such as bandwidth, frequency, and distance.
+
+For example, Cat5 and Cat5 cables that we spoke about have a bandwidth of about 100MHz, while Cat6 and 6a have about 250 and 500, respectively.
+
+The frequency of the cables affects the amount of data that can be transmitted with higher frequencies, allowing for greater data transfer rates.
+
+
+Ethernet cables are used in a wide range of applications, from home networks to large scale enterprise networks.
+
+Ethernet cables can be used to connect devices within a single room, within a building, or even across multiple buildings, if they are in close vicinity.
+
+
+<img width="780" height="593" alt="image" src="https://github.com/user-attachments/assets/c0da582d-0ba4-4db2-99c0-68581d1e38cd" />
+
+
+
+# FIBER CABLING
+
+
+<img width="688" height="502" alt="image" src="https://github.com/user-attachments/assets/50d1e108-0066-4164-9533-ddb45286f7e8" />
+
+
+<img width="867" height="467" alt="image" src="https://github.com/user-attachments/assets/16496beb-4af4-473b-aed5-d43190f06b56" />
+
+
+<img width="603" height="420" alt="image" src="https://github.com/user-attachments/assets/9bb22874-5a6a-456a-bbeb-379ff1e105b0" />
+
+
+Another advantage of fibre cabling is its immunity to lightning strikes and electrical surges, making it a safer option for use in areas with volatile weather conditions.
+
+It is also thinner and more flexible than a traditional copper cable or Ethernet cable, making it easier to install and requiring less space.
+
+
+
+<img width="829" height="455" alt="image" src="https://github.com/user-attachments/assets/bdc1ba14-ce73-4306-8adf-33b44b632933" />
+
+One example of where it could be used, for example, is if you've got a switch where there are ten PCs connected over one Gigabit Ethernet cables.
+
+Instead of having to connect to the server using a one gigabit cable, you could use one of the SFP modules and install a ten gigabit fiber cable so that the communication between the switch and the server is ten gigabit.
+
+<img width="558" height="363" alt="image" src="https://github.com/user-attachments/assets/10c1d973-a4d2-4c30-a8b6-94d7c3e46334" />
+
+
+
+# PATCH PANELS
+
+
+<img width="1049" height="324" alt="image" src="https://github.com/user-attachments/assets/3a2c1610-e1ba-40ae-8d46-3b6dfbe242e2" />
+
+
+<img width="1181" height="630" alt="image" src="https://github.com/user-attachments/assets/98ec5251-e831-482d-aac9-57c924a2400f" />
+
+
+Patch panels come in various sizes and configurations, but the most common ones are 24 port or 48 port panels.
+
+These panels are typically mounted in a network rack or cabinet, which is usually located in a dedicated room or closet in the office.
+
+
+<img width="880" height="468" alt="image" src="https://github.com/user-attachments/assets/d176cc97-b667-41c7-b1d0-279b086c474d" />
+
+
+Why are patch panels so important?
+
+Well, one of the main reasons is that they can make it easy to manage network connections.
+
+By centralizing all the cables in one location, it becomes easier to identify and troubleshoot any issues that may arise.
+
+Another reason is that patch panels make it easier to add or remove devices to the network.
+
+Instead of having to rerun cables or install new ones, you can simply connect or disconnect a device to the patch panel using a patch cable, otherwise known as an Ethernet cable.
+
+
+## How do they work?
+
+<img width="1208" height="587" alt="image" src="https://github.com/user-attachments/assets/cd58e9b3-b996-4170-876d-65e364371bf6" />
+
+Well, patch panels have ports on the front and back, with each port corresponding to a network cable.
+
+The front ports are used to connect patch cables, which are short cables with connectors on both ends.
+
+These cables are used to connect devices like computers, printers, and switches to the patch panel.
+
+The back ports are used to connect the network cables that run throughout the office.
+
+
+These cables are usually run from wall jacks in various locations throughout the office, and terminate at the patch panel.
+
+The cables are then connected to the back of the patch panel using a punch down tool, which secure the cables in place and makes that reliable connection.
+
+
+<img width="515" height="243" alt="image" src="https://github.com/user-attachments/assets/c71eb378-8e2c-4ac3-912f-165531975b43" />
+
+
+There are many cable management devices out there that you can install inside your network cabinet or network rack in order to keep that patch panel looking clean.
+
+
+<img width="1122" height="503" alt="image" src="https://github.com/user-attachments/assets/0249bbc2-01ac-4f95-b6fd-b49c51c4f60b" />
+
+
+
+
+# VoIP
+
+<img width="725" height="490" alt="image" src="https://github.com/user-attachments/assets/aa7f909a-cbf3-4ef6-8948-f61f150c1e41" />
+
+
+<img width="803" height="525" alt="image" src="https://github.com/user-attachments/assets/8fe1b662-2f05-4e65-ad0b-32cbc26966cf" />
+
+
+<img width="683" height="488" alt="image" src="https://github.com/user-attachments/assets/84ff9043-62d0-4ce5-9e38-91427f66ac87" />
+
+
+
+If your business is one that receives and makes a lot of phone calls, I would definitely recommend looking at a VoIP system.
+
+Another benefit of VoIP is the flexibility.
+
+Since VoIP systems operate over the internet, employees can take their phones with them wherever they go.
+
+This means that employees can work from home, on the road, or anywhere with an internet connection, by either bringing their phones with them or downloading apps onto their mobile devices. They can bring the business with them wherever they go.
+
+
+<img width="704" height="517" alt="image" src="https://github.com/user-attachments/assets/251d46a9-dcc0-476b-8949-aa4e9d519d3c" />
+
+
+<img width="653" height="577" alt="image" src="https://github.com/user-attachments/assets/0bed1bcc-24f5-45ca-9bfe-a13f502cb5d8" />
+
+
+<img width="1011" height="471" alt="image" src="https://github.com/user-attachments/assets/75d390c6-a021-40cc-aac4-1d20a031f8bd" />
+
+
+<img width="670" height="525" alt="image" src="https://github.com/user-attachments/assets/5f984d6c-74df-4753-a5a8-27187aac52cb" />
+
+
+
+
+# FAXES
+
+
+<img width="760" height="475" alt="image" src="https://github.com/user-attachments/assets/78167038-d4c2-4f36-bcb5-6946fb6f9ba7" />
+
+Fax is short for facsimile.
+
+Machines are devices that transmit paper documents over a telephone line.
+
+The sender places the document on the fax machine, dials the recipient fax number, and presses send.
+
+<img width="1099" height="523" alt="image" src="https://github.com/user-attachments/assets/cd21f779-f8b3-4c67-93c7-be32cd126aa6" />
+
+
+Thirdly, faxes are just not secure.
+
+They can be intercepted by third parties, or even just someone picking up a piece of paper from the fax machine when they weren't meant to.
+
+This can potentially compromise sensitive information, which is why you should be looking at more modern solutions for communication.
+
+
+<img width="1096" height="500" alt="image" src="https://github.com/user-attachments/assets/d59515d8-283c-4468-98e3-190fc9ecdb49" />
+
+
+
+# MOBILE PHONES
+
+<img width="668" height="472" alt="image" src="https://github.com/user-attachments/assets/52da3be1-b536-4262-ba61-eb41b29f9645" />
+
+<img width="666" height="414" alt="image" src="https://github.com/user-attachments/assets/17764f6a-f073-41b0-a5f2-1b436b00f073" />
+
+<img width="675" height="420" alt="image" src="https://github.com/user-attachments/assets/1d13f842-bbe1-44e3-8d15-3fca61ed38f2" />
+
+<img width="653" height="592" alt="image" src="https://github.com/user-attachments/assets/44905390-78dc-4bde-9135-8fa16fdbe0d0" />
+
+<img width="525" height="530" alt="image" src="https://github.com/user-attachments/assets/4a468916-2826-4e4e-a048-dd19f5604247" />
+
+
+
+# PRINTERS
+
+
+
 
