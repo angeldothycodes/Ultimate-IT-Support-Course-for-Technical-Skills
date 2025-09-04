@@ -1174,3 +1174,19 @@ Microsoft has a huge library of how you can best secure your Windows Server envi
 
 <img width="938" height="496" alt="image" src="https://github.com/user-attachments/assets/9c20dd49-6e68-44fa-9853-cded96734ee7" />
 
+
+# Linux Servers
+
+<img width="297" height="392" alt="image" src="https://github.com/user-attachments/assets/a892d7de-4ec1-4886-99d1-43794d441e71" />
+
+
+<img width="1032" height="509" alt="image" src="https://github.com/user-attachments/assets/6f41dd95-7f0c-4992-941d-dde5b3918bbb" />
+
+
+<img width="760" height="405" alt="image" src="https://github.com/user-attachments/assets/de7f869c-5c92-4145-b425-2cb1e056f69e" />
+
+
+
+<img width="722" height="392" alt="image" src="https://github.com/user-attachments/assets/4bbdacf3-464c-4d2f-ac71-ea3424f1dde0" />
+
+
