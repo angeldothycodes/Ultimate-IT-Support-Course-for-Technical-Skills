@@ -1483,5 +1483,53 @@ This can potentially compromise sensitive information, which is why you should b
 # PRINTERS
 
 
+<img width="1053" height="555" alt="image" src="https://github.com/user-attachments/assets/95e8ce12-595a-48c6-82ca-f6095ade6377" />
 
 
+Firstly, I want to talk about the type of printers.
+
+There are two main types of printers that I want to talk about, and they're the most common ones you're
+
+going to see in the industry.
+
+Inkjet printers are great for printing high quality color images, but they can be expensive to maintain.
+
+Laser printers, on the other hand, are ideal for high volume printing and are often found in offices
+
+due to their speed and reliability.
+
+
+<img width="559" height="529" alt="image" src="https://github.com/user-attachments/assets/5951455f-2d1d-4627-a18b-2234afad9403" />
+
+
+The majority of printers these days are multifunctional.
+
+This means that they can do things like print, scan, copy, and fax documents.
+
+This versatility can be a great asset to an office environment, but it's important to ensure that these features are properly set up and configured for your needs.
+
+
+<img width="1073" height="499" alt="image" src="https://github.com/user-attachments/assets/d6034a1d-ed6a-435e-b072-18ed1cdda1bc" />
+
+
+
+Windows Print Server is probably one of the most commonly used ways of deploying printers.
+
+There are many other ways, including some third party tools which can tie into a printer and allow for features like pay-per-print, or scan to print these days.
+
+There are even cloud management platforms that centralize the management of all your office printers.
+
+
+A print server, though, is commonly used because you simply add the printer, add the driver onto the print server, and you can deploy that to all machines in your organization. Or if the need arises, you can restrict which people have access to that printer.
+
+
+<img width="778" height="532" alt="image" src="https://github.com/user-attachments/assets/5b7a8b7d-8ca5-40a1-a370-4a04b8412d1d" />
+
+Ask any IT professional, and they'll tell you that printers can be one of the most troublesome devices in the network.
+
+Printers can suffer from paper jams, connectivity problems, and driver issues, and these are all common problems that as an IT professional, you're going to encounter.
+
+It's important to have a solid understanding of how the printer functions and the causes of these issues in order to properly troubleshoot and resolve them.
+
+
+Connectivity problems can often be due to wireless, so where possible, you always want to try and use a wired connection for printers and driver issues sometimes can be fixed as easily as going to the manufacturer's website and downloading the latest driver for that printer.
