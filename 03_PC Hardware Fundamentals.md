@@ -376,6 +376,15 @@ Single rail or multi rail which can affect load balancing and safety.
 <img width="548" height="292" alt="image" src="https://github.com/user-attachments/assets/ffff6e06-1679-4cbd-b0b4-f6c0828976b7" />
 
 
+
+
+===========================
+
+
+<img width="891" height="276" alt="image" src="https://github.com/user-attachments/assets/960f9d65-2ec7-45d9-ae8e-a0f20a3879da" />
+
+
+
 <img width="850" height="526" alt="image" src="https://github.com/user-attachments/assets/bafa5b5a-d7e3-4f08-ba75-ec7f35d323fc" />
 
 
