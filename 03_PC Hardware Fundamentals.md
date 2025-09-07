@@ -251,3 +251,23 @@ So if you are worried about that, it's always worth looking at things like encry
 
 
 3. Something else to take into consideration is there is something called a hybrid drive, which is a combination of SSDs and hard drives. These are probably more rare than both of the two.
+
+
+
+<img width="999" height="471" alt="image" src="https://github.com/user-attachments/assets/727cc30d-b1de-4f05-94cc-56b6e8a5e400" />
+
+So choosing the right storage really depends on your needs.
+
+If speed is crucial, you have to go for an SSD, and these days you can get SSDs probably up to around 2 to 4TB.
+
+Now that is going to cost a lot more than a 2 to 4 terabyte hard drive.
+
+But if you need speed and storage, you may be able to find some middle ground there.
+
+But if you are using large amounts of data, a hard drive is much more cost effective.
+
+Many PC builds do combine both, so an SSD for fast performance and a hard drive for additional capacity.
+
+So remember to assess you or your clients requirements and budget to strike the perfect balance.
+
+Storage devices are a vital part of the PC which directly impacts performance and data management.
