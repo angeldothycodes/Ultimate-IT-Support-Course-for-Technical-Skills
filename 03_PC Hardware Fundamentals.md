@@ -271,3 +271,34 @@ Many PC builds do combine both, so an SSD for fast performance and a hard drive 
 So remember to assess you or your clients requirements and budget to strike the perfect balance.
 
 Storage devices are a vital part of the PC which directly impacts performance and data management.
+
+
+# GPU (Graphics and Why it Matters)
+
+
+<img width="1063" height="457" alt="image" src="https://github.com/user-attachments/assets/c08ed4d3-21b3-4bce-bbfe-418fee71e692" />
+
+
+The GPU is essential for rendering visuals on your computer, whether it's games, videos, or 3D models.
+
+The GPU handles all graphical tasks, offloading the work from the CPU, which is really critical when you think about it.
+
+This boosts the performance and ensures smooth visual experiences.
+
+GPUs are indispensable if you're the type of person who's using a PC for things like gaming, video editing, and professional creative work.
+
+
+<img width="1057" height="557" alt="image" src="https://github.com/user-attachments/assets/7c2c6ba6-a9f1-4a89-ad4f-d4154a2335d1" />
+
+Integrated GPUs are part of the CPU and handle basic tasks like web browsing or video streaming.
+
+When it comes to dedicated GPUs, on the other hand, these are separate components that deliver high performance for demanding applications.
+
+Now, you may also hear of things called E-GPUs or external GPUs.
+
+These can be connected to laptops to enhance their graphical power.
+
+
+<img width="1095" height="574" alt="image" src="https://github.com/user-attachments/assets/35a194ea-4a22-434b-8629-00043481bb6b" />
+
+
