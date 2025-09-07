@@ -324,3 +324,58 @@ If you are choosing between the two, consider things like driver stability, soft
 
 # POWER SUPPLY
 
+<img width="1040" height="476" alt="image" src="https://github.com/user-attachments/assets/ce9feb21-6a19-4107-ac56-92e9dcaf1e34" />
+
+
+A **power supply unit, often shortened to PSU** converts AC power, which comes from your wall to DC
+
+power, which is going to power the components within the PC itself.
+It's going to supply power to all parts of the computer.
+
+So that's all your drives the motherboard, the CPU, the graphics card, everything that requires power, which when you think about it, is pretty much everything.
+
+Even plugging a simple USB or external hard drive in is going to require power.
+
+And that all comes from these power supply units.
+
+They have a job to regulate and distribute the correct voltage, ensuring that not too little gets supplied, which is going to essentially make the components either not work at all or work very slowly, but also that not too much power is applied which could fry different parts of your machine.
+
+For example, if you were to put too much power into a motherboard, it's not uncommon for a capacitor to blow, which can cause permanent damage towards the unit.
+
+The PSU is measured in watts, which is going to indicate how much power it can supply to the entire system.
+
+So when you're looking at power supplies, they're going to have ratings and different watts.
+
+And the watts is something you need to take into consideration, especially for higher end PCs.
+
+You're going to need to always ensure that the power supply has enough power to produce all the units running operationally.
+
+
+<img width="1003" height="297" alt="image" src="https://github.com/user-attachments/assets/4914817d-3ae2-45d2-b9f2-30e88cd0574b" />
+
+
+When choosing a PSU, there are several key specifications to consider.
+
+So we already spoke about wattage and this tells us how much total power the PSU can provide.
+
+There's also efficiency ratings such as 80 plus, bronze, silver and gold and higher.
+
+And this is to indicate how efficiently the power supply converts power with minimal wastage.
+
+Modularity refers to the ability to detach cables, improving airflow and cable management within your PC's. And finally, PSU is also differ in how they distribute power.
+
+Single rail or multi rail which can affect load balancing and safety.
+
+
+<img width="773" height="392" alt="image" src="https://github.com/user-attachments/assets/10568512-712d-43df-bca9-71849b8b1c50" />
+
+
+<img width="617" height="533" alt="image" src="https://github.com/user-attachments/assets/6eb1e751-c6e1-414f-8590-0d1359fa61b1" />
+
+
+<img width="548" height="292" alt="image" src="https://github.com/user-attachments/assets/ffff6e06-1679-4cbd-b0b4-f6c0828976b7" />
+
+
+<img width="850" height="526" alt="image" src="https://github.com/user-attachments/assets/bafa5b5a-d7e3-4f08-ba75-ec7f35d323fc" />
+
+
