@@ -302,3 +302,25 @@ These can be connected to laptops to enhance their graphical power.
 <img width="1095" height="574" alt="image" src="https://github.com/user-attachments/assets/35a194ea-4a22-434b-8629-00043481bb6b" />
 
 
+When selecting a GPU, it's important to understand the key specifications.
+
+**Vram or video Ram** determines how much graphical data can be stored and processed at once.
+
+**Higher clock speeds** indicate faster performance, whilst **Cuda cores**, Nvidia or Stream processors for AMD, which we'll talk about in a moment, reflect processing power.
+
+**Ray tracing** is also something that a lot of people expect from a GPU, and it's a newer feature which enhances lighting and shadows for more realistic video visuals, especially in video games.
+
+
+<img width="1090" height="562" alt="image" src="https://github.com/user-attachments/assets/227b54b5-968b-4bba-bd82-03a01fd1be9d" />
+
+
+However, as an industry and as a kind of third party separate from both of these companies, I will say more people are definitely going towards the Nvidia route.
+
+If you are choosing between the two, consider things like driver stability, software support and the specific performance requirements of your tasks.
+
+
+<img width="987" height="518" alt="image" src="https://github.com/user-attachments/assets/398492ce-fe08-4c1f-b708-d8c406a9b93f" />
+
+
+# POWER SUPPLY
+
