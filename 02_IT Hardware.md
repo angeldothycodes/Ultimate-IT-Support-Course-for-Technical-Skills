@@ -1533,3 +1533,305 @@ It's important to have a solid understanding of how the printer functions and th
 
 
 Connectivity problems can often be due to wireless, so where possible, you always want to try and use a wired connection for printers and driver issues sometimes can be fixed as easily as going to the manufacturer's website and downloading the latest driver for that printer.
+
+
+
+# Router, Switch and Wireless Access Point Demonstration
+
+
+<img width="973" height="576" alt="image" src="https://github.com/user-attachments/assets/1bcfb12d-a421-48c2-91b2-04b1b912c5ee" />
+
+Let's first take a look at what a router firewall may look like.
+
+Here I have emulated an RV 340, which is a Cisco router which also doubles up as a firewall.
+
+
+<img width="541" height="572" alt="image" src="https://github.com/user-attachments/assets/7833212a-be77-453c-98c5-756440ae86b5" />
+
+You can see down the left hand panel, a lot of the topics we discussed are options and sections.
+
+And if you click on one of them, there are subsections within it.
+
+Each of these subsections has the settings available for you to configure.
+
+
+<img width="1062" height="521" alt="image" src="https://github.com/user-attachments/assets/870f4380-420e-4290-bedc-51f5a40eece6" />
+
+
+Starting off under System Configuration, we can see many of the things that you would need to set when first time setting up these devices.
+
+Options like the system name, the time of the device, any user accounts that are allowed to access the device, and various other important configurations.
+
+
+<img width="1159" height="604" alt="image" src="https://github.com/user-attachments/assets/048a3117-3c7b-446f-8fc5-b10360942917" />
+
+
+If we head on over to Wan, we can see under Wan settings.
+
+There are two different WANs.
+
+Now Wan stands for Wide Area Network, otherwise known as Internet Connections.
+
+This ties in heavily with the discussion we had around getting a internet service and a backup internet service.
+
+At the moment these are unconfigured, but if you had a fiber service, you may want to connect that over to WAN1, and WAN2 may be reserved for your cellular backup or even satellite.
+
+<img width="695" height="435" alt="image" src="https://github.com/user-attachments/assets/5ebab5ed-b485-47a6-a785-ea887f7e7924" />
+
+
+Multi Wan is where we can set some settings for the primary and backup internet, such as how much traffic would go out either interface.
+
+
+
+
+
+<img width="805" height="379" alt="image" src="https://github.com/user-attachments/assets/5328efbb-8611-4d72-91c2-765d3d5ad3e5" />
+
+Mobile network is for the cellular connection.
+
+So you could put it in a mobile dongle, a little USB device with a data SIM in it, select what type of network it's on, put in all the details about that SIM card and then connect to the LTE network in your area.
+
+
+
+
+<img width="598" height="325" alt="image" src="https://github.com/user-attachments/assets/99ed2e09-7c3a-43f8-9678-00d1c79e4188" />
+
+
+When we head on over to LAN, we can see there are four LAN ports that devices could be plugged into.
+
+These could be things like computers, switches, or even access points.
+
+You can label the ports so you could label, for example, and give a description as to what each port connects to, so that the next person that comes into this configuration has an easy time making out what you've configured.
+
+
+<img width="804" height="364" alt="image" src="https://github.com/user-attachments/assets/b3cf7dff-4d5c-4b8a-83f2-327972f81df8" />
+
+We spoke briefly on VLANs, and as you can see here, this router only has one Vlan, but it gives you the option to add many more.
+
+
+
+<img width="826" height="576" alt="image" src="https://github.com/user-attachments/assets/e8324961-b28b-4d77-a28e-eba4e5c76ff7" />
+
+
+The firewall setting here covers most of what we spoke about in our course on the firewall devices.
+
+Your basic settings covers through what type of things are enabled and what is disabled.
+
+
+
+<img width="1146" height="570" alt="image" src="https://github.com/user-attachments/assets/19484446-2de1-4952-bf4c-43e35b254068" />
+
+
+Whereas your access rules speak about the inbound and outbound traffic that's allowed or blocked, here we can see we only have two rules on the Ip4 access rule table.
+
+The first rule is allowing all traffic from the Vlan to the destination when.
+
+So that's basically all outbound traffic is allowed.
+
+Whereas we have a second rule which is denying all traffic from the Wan to the Vlan.
+
+So that's the inbound traffic that we spoke about making sure is secured down.
+
+
+
+<img width="836" height="372" alt="image" src="https://github.com/user-attachments/assets/d2a4eacf-035a-440c-8dae-6b756252ff41" />
+
+
+When we head on down to VPN, we can see the many different settings of a VPN.
+
+So we have the site to site and client to site that we spoke about.
+
+But there are also many different protocols used within a Cisco router.
+
+So we could set up a FTP server for the client to site, or we could set up an HTTP server. And there's even an option for SSL VPN.
+
+
+
+<img width="1040" height="574" alt="image" src="https://github.com/user-attachments/assets/70ab95d1-a31e-4bb1-8253-512bd58bd347" />
+
+Just clicking into the site to site option, you can see you can give the site to site a name.
+
+You would need to specify the remote endpoint, which interface is being configured on an IPsec profile, and some other options.
+
+
+
+<img width="1124" height="532" alt="image" src="https://github.com/user-attachments/assets/b9ebdc1f-90ef-44d2-a393-dae56b7d8e2b" />
+
+
+Heading down to security, this is where you really get to grips with making sure your environment is as safe as you can.
+
+There are several security options that you can configure in here, and it's important to go through your vendors best practices to see which ones are right for your organization.
+
+
+
+## SWITCHES
+
+
+<img width="812" height="571" alt="image" src="https://github.com/user-attachments/assets/350f083c-026e-4491-a24c-086f940d8bdc" />
+
+Next, we're going to dive on over to switches.
+
+So a very similar interface here.
+
+But as you can see on the left hand side There's a lot of different options that tie into what we already spoke about in our switching lecture.
+
+
+<img width="792" height="623" alt="image" src="https://github.com/user-attachments/assets/2c8dab64-bbae-44cd-b0c7-a1e20ae20679" />
+
+Starting at Port Management, you can see there are about 48 ports on this switch of one gigabit and 210 gigabit fiber optic ports.
+
+
+
+<img width="676" height="626" alt="image" src="https://github.com/user-attachments/assets/15811dc2-b547-410d-b3c6-f93820d3d73b" />
+
+
+Each port shows you what the name is, what its status is, what its port speed is. Duplex refers to full refers to traffic being both ways, whereas half duplex would only mean one side of the traffic can happen at a time - either upload or download.
+
+
+
+<img width="631" height="479" alt="image" src="https://github.com/user-attachments/assets/7f2efaf5-edc4-406b-ad91-84ccf7f5337b" />
+
+Link aggregation we spoke about and you can see here there's already one configured. So ports 1/4 and 1/5 are configured in a link aggregation probably connecting to another switch.
+
+
+
+<img width="799" height="617" alt="image" src="https://github.com/user-attachments/assets/cc331fb6-5063-4569-820a-ec4708f33e66" />
+
+We spoke about Poe so power over Ethernet.
+
+So if we go into settings here we can see that port one is currently delivering power over that port.
+
+
+<img width="825" height="636" alt="image" src="https://github.com/user-attachments/assets/48c941c2-21af-4127-96fb-c8d1061cd4d9" />
+
+VLANs we spoke about in the switches lecture.
+
+And as you can see here there are a couple of VLANs configured on this switch for the different ports.
+
+
+<img width="673" height="633" alt="image" src="https://github.com/user-attachments/assets/afe5a884-93ac-43b8-99e3-7636685c9222" />
+
+The all important spanning tree is enabled meaning that this switch is protected from those loops.
+
+
+<img width="766" height="604" alt="image" src="https://github.com/user-attachments/assets/a2daa63f-8b78-4582-b156-79c01e0e8908" />
+
+And the last thing I want to cover is just the security section here.
+
+So here you can see many different security options available to this switch to help lock down and ensure a safe network environment.
+
+
+
+## Wireless Access Points
+
+<img width="1137" height="623" alt="image" src="https://github.com/user-attachments/assets/ea7e6d6d-0319-456f-a509-1f5572868ed9" />
+
+
+Lastly, let's take a look at the Cisco Wireless Access point.
+
+So this model is a 150 AKS.
+
+The dashboard here gives us a lot of information.
+
+So we can see that there are currently five different wireless networks being broadcast by this.
+
+There are four access points connected to this wireless.
+
+So there would be a wireless controller controlling all of these.
+
+We have three clients currently connected to the 2.4GHz range and three clients connected to five gigahertz
+
+range.
+
+
+<img width="1117" height="536" alt="image" src="https://github.com/user-attachments/assets/10334cda-2427-4301-aff7-78a006f47d4b" />
+
+Configuration wise, if we make our way over to the wireless settings here, you can see it has all
+
+the options available.
+
+So in the case you're needing to change or set one of these up, you would simply navigate to the wireless settings.
+
+
+<img width="1078" height="542" alt="image" src="https://github.com/user-attachments/assets/447f9202-6c6c-4a8c-b286-733b296c797e" />
+
+
+Click on the subsection that you want to configure.
+
+So let's say for example access points and just hit the edit button.
+
+
+Network hardware is one of those things that you're really going to get to grips with as you configure it yourself.
+
+So I highly recommend you check out the various emulators and simulators out there for different network vendors, and check out some of the courses on the specific hardware that your environment may use so that you can become that IT expert in your organization.
+
+
+
+# The Importance of Network Diagrams
+
+
+<img width="1021" height="535" alt="image" src="https://github.com/user-attachments/assets/d6220577-6deb-4308-b660-e2d0a631bc03" />
+
+
+A network diagram is a graphical representation of a network structure, which can help you and your fellow IT professionals to understand and troubleshoot issues within the network.
+
+
+
+<img width="1034" height="462" alt="image" src="https://github.com/user-attachments/assets/135ba1d4-0826-4c58-ae86-316d88b19a73" />
+
+
+<img width="336" height="586" alt="image" src="https://github.com/user-attachments/assets/60b5b613-a75a-4d58-b2cc-f96bcc3e74d7" />
+
+
+To understand why they're so important, you need to think about if you're coming into a network to
+
+troubleshoot.
+
+When you rock up on site, all you're going to see is a bunch of devices stacked together in a network
+
+rack with a bunch of cables sporadically sprawled out across the rack.
+
+But what if you went there with a strong network diagram that provides a clear and concise visual representation
+
+of the network components, connections, and devices?
+
+It will allow you, as an IT professional to easily identify potential issues and visualize the overall
+
+network structure, making it easier to troubleshoot problems and optimize the network for maximum efficiency.
+
+
+<img width="984" height="507" alt="image" src="https://github.com/user-attachments/assets/b52a25dd-67e1-4559-8043-4ca7cfffe45d" />
+
+
+Network diagrams provide a common language for IT professionals to communicate and collaborate, reducing
+
+the risk of misunderstandings and mistakes.
+
+They can also help to identify potential security vulnerabilities in the network, such as unauthorized
+
+devices or connections, and provide insights into how to improve a network.
+
+
+<img width="882" height="506" alt="image" src="https://github.com/user-attachments/assets/18beb4ad-edad-48d6-adbe-988da4fc2ab5" />
+
+
+There are a number of tools available that can help you create a network diagram, but the two most popular are Microsoft Visio or Draw.io.
+
+These can be used to create detailed and comprehensive network diagrams.
+
+It's important to keep the network diagrams up to date and to document any changes made to the network.
+
+This will ensure that the network diagrams remain an accurate representation of the network.
+
+Remember, you're not just limited to one either.
+
+You may have several network diagrams for the same thing one detailing how the network rack is laid out, one detailing how the physical connections are laid out, and maybe one detailing how the logical network is laid out.
+
+You may be looking after 20 different remote sites, each of which need their own network diagram.
+
+These are all important considerations, but critical parts of being an IT professional.
+
+Trust me when I say, if you do this right, your colleagues and your management will love you.
+
+
+<img width="1006" height="483" alt="image" src="https://github.com/user-attachments/assets/ad7cb0cc-ecab-4feb-ab53-a805a88486c8" />
