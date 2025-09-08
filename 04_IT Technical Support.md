@@ -209,13 +209,63 @@ A domain is a human readable address used to access websites.
 
 When we talk about computers, they don't use the same language we do.
 
-Computers are all ones and zeros.
+Computers are all ones and zeros. When you're going out and going to a website, your computer isn't acknowledging things like udemy.com.
 
-And when you're going out and going to a website, you're the computer isn't acknowledging things like
+What it's doing is it's translating that into an IP address that it then uses to establish a TCP protocol for you to go ahead and browse.
 
-udemy.com.
+However, we are humans. We can't remember numbers like computers can. What we do is we purchase domains. For example Udemy.com is a domain and we have systems that translate domains into those IP addresses.
 
-What it's doing is it's translating that into an IP address that it then uses to establish a TCP protocol
 
-for you to go ahead and browse.
+<img width="588" height="461" alt="image" src="https://github.com/user-attachments/assets/b06b41e7-e0f5-48f6-bcd1-6f0978a0dce5" />
+
+
+Domains are registered through domain registrars.
+
+So GoDaddy and Namecheap to name just a few.
+
+And ownership must be renewed periodically so you can buy domains for a year, two years, and you have to continuously keep purchasing in order for you to own them.
+
+
+<img width="655" height="534" alt="image" src="https://github.com/user-attachments/assets/e0d5c850-f609-4fe0-837d-4cf2e0945222" />
+
+
+A lot of on premises infrastructure contains a DNS server that you can host locally, but you can also use public DNS servers.
+
+So Google host a public DNS server, which is a 8.8.8.8, and Cloudflare host another very popular one, which is 1.1.1.1.
+
+
+
+<img width="971" height="456" alt="image" src="https://github.com/user-attachments/assets/fdac25ef-a254-4762-9a03-950919d30783" />
+
+
+
+For those wanting to get into some web design, what you're going to want to need to understand is sort of the three phases of creating a website.
+
+>> **Design and development** is the first one where you create the layout, the design and the functionality.
+
+>> **Testing and QA** is always important. Ensuring the website works, especially if it's something like, let's say, a sales website or an ecommerce website, you kind of want to test to make sure that end users can't do anything to break your website or potentially cause harm.
+
+>> And of course, then there's the **deployment**. That's where you upload the website files to a web server, configure your DNS and make that site accessible.
+
+
+<img width="790" height="467" alt="image" src="https://github.com/user-attachments/assets/ae6e9f16-29da-40f7-a947-58f2e7a4b81e" />
+
+We always want to think about the security of our domains, DNS and websites. And that's why we have SSL certificates.
+
+So SSL stands for Secure Sockets Layer certificates, are digital certificates that authenticate a website's identity and enable encrypted communications.
+
+These certificates are to ensure data transmitted between the web server and your browser is secure.
+
+Websites use these to build trust with users by validating the website's legitimacy.
+
+These have to be purchased and are more often than not purchased on a yearly or two yearly subscription.
+
+They need to be installed on the web server that's hosting the website, and this is to ensure that all web traffic can be redirected from HTTP, which is insecure, to Https, which is secure.
+
+
+<img width="714" height="437" alt="image" src="https://github.com/user-attachments/assets/12d1cc3a-dbbc-4b72-8c42-dd7f08fdd5b2" />
+
+
+<img width="934" height="435" alt="image" src="https://github.com/user-attachments/assets/c19a4d68-0c9f-4286-9168-47d509839aa1" />
+
 
