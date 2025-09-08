@@ -403,3 +403,39 @@ The more commonly used file servers these days are run on Microsoft Windows serv
 
 
 <img width="535" height="512" alt="image" src="https://github.com/user-attachments/assets/36186e34-9b6a-4de3-abb9-41cace97d3e0" />
+
+
+
+**When we're talking about cloud options, we of course can't ignore OneDrive and SharePoint online.**
+
+<img width="811" height="556" alt="image" src="https://github.com/user-attachments/assets/77d171e2-c96b-471f-bf8b-d744474a7393" />
+
+
+**When we're talking about managing file shares, there are a few important things that you need to think about.**
+
+<img width="943" height="472" alt="image" src="https://github.com/user-attachments/assets/2f8af004-a221-4cf5-b940-346ef61fda36" />
+
+
+<img width="941" height="506" alt="image" src="https://github.com/user-attachments/assets/277eea37-dbfb-41f3-a22a-8cd701c00f52" />
+
+
+<img width="971" height="551" alt="image" src="https://github.com/user-attachments/assets/043fa0e8-182b-4269-9f03-9456487c2c78" />
+
+
+<img width="932" height="414" alt="image" src="https://github.com/user-attachments/assets/a2b94320-9404-4e40-a018-7f4b8d8ac662" />
+
+
+
+# Networking Essentials
+
+
+<img width="982" height="438" alt="image" src="https://github.com/user-attachments/assets/0c8bcc72-e61d-41e7-9198-59f441719676" />
+
+
+<img width="914" height="404" alt="image" src="https://github.com/user-attachments/assets/f6dc4e12-b75e-460c-87d4-b777801e28dc" />
+
+
+<img width="928" height="436" alt="image" src="https://github.com/user-attachments/assets/1059b09f-9ea6-4a69-bdd7-4a4bcc5f9f12" />
+
+
+
