@@ -438,4 +438,184 @@ The more commonly used file servers these days are run on Microsoft Windows serv
 <img width="928" height="436" alt="image" src="https://github.com/user-attachments/assets/1059b09f-9ea6-4a69-bdd7-4a4bcc5f9f12" />
 
 
+<img width="907" height="452" alt="image" src="https://github.com/user-attachments/assets/91e7f740-8230-42b9-bcc2-2ba095907be9" />
+
+
+<img width="916" height="485" alt="image" src="https://github.com/user-attachments/assets/3dc7ce96-f39e-49c5-9e5f-a2b46e3b708a" />
+
+
+
+# Printing (And Faxing)
+
+
+<img width="851" height="510" alt="image" src="https://github.com/user-attachments/assets/c107d91e-b9fb-47b3-b6ba-57f8b9bfbab9" />
+
+
+There are many different types of printers out there.
+
+We're not going to cover specifically how each of them works, but some of the more important ones for you to know are your laser printers, your inkjet printers, your 3D printers, and your dot matrix printers.
+
+Some of the core components of a printer is the print head.
+
+
+<img width="984" height="526" alt="image" src="https://github.com/user-attachments/assets/093ea0af-4e61-435f-adae-ba9113a68dcb" />
+
+
+
+<img width="864" height="524" alt="image" src="https://github.com/user-attachments/assets/b5c05abe-d5fd-4d29-b6ae-ab7bfc1c8826" />
+
+
+Now what is a print server?
+
+Well, simply put, a print server is a central system that manages the print requests from client computers.
+
+So you've got to think, if you're in a business environment with, let's say, 50 people on your floor, on your level of your workplace, there may be 1 or 2 printers there that all of you are sharing.
+
+So if, let's say, Jane Doe is wanting to print and John Doe on the other side of the office is wanting to print to the same printer, how do you do that?
+
+Well, you set up a print server that's deployed on all of the workstations on that floor, and any time they want to print, they'll go ahead and print to that print server.
+
+The print server will send it to the physical printer itself, and that will print out. So some functions of this print server is queue management.
+
+The print servers are going to maintain a queue of print jobs ensuring they are processed in order. So if John was to hit the print button 30s before Jane, it's going to finish printing his documents before hers. Driver distribution is really important.
+
+
+<img width="996" height="537" alt="image" src="https://github.com/user-attachments/assets/d1ea245b-99ad-47ec-8017-a83b43b7cf87" />
+
+
+<img width="539" height="441" alt="image" src="https://github.com/user-attachments/assets/ca888b45-9c86-47f5-9af4-326c614e0caf" />
+
+
+
+# Remote Access
+
+
+
+<img width="516" height="387" alt="image" src="https://github.com/user-attachments/assets/e033bed9-7daa-4748-81dd-94128210174c" />
+
+
+Remote access is becoming increasingly important, and I wanted to cover it off because you, as a technical support staff, are going to be helping the end users with their remote access, and it's becoming much more of a thing in today's IT roles than it was, say, 5 or 10 years ago.
+
+
+**Let's go ahead now and look at the types of remote access solutions that we may see.**
+
+<img width="967" height="490" alt="image" src="https://github.com/user-attachments/assets/bc5e58bd-42b3-4048-8ede-8f1bfd9d0913" />
+
+
+
+Essentially, what a virtual private network does is it creates sort of like a tunnel between the office network and let's say a user is working from home, for example, and they've got their own internet connection.
+
+It's going to create a tunnel between those two locations to securely transmit data to and from, as if that device was in the office itself.
+
+
+
+
+
+<img width="687" height="499" alt="image" src="https://github.com/user-attachments/assets/46b265b0-1b01-4d7c-9ca6-9171e90e3136" />
+
+
+<img width="858" height="482" alt="image" src="https://github.com/user-attachments/assets/07e86a1c-4f8d-4e6c-800a-03b6886db5e6" />
+
+
+<img width="983" height="512" alt="image" src="https://github.com/user-attachments/assets/d54979fb-1e60-4b79-9adc-45e51ed341bf" />
+
+
+# Security Fundamentals
+
+
+<img width="614" height="535" alt="image" src="https://github.com/user-attachments/assets/e5117291-de1d-4325-ab5e-0bdcfd2798f1" />
+
+<img width="498" height="531" alt="image" src="https://github.com/user-attachments/assets/e67b98bc-1b41-4baa-8992-ba83990e5282" />
+
+<img width="823" height="507" alt="image" src="https://github.com/user-attachments/assets/bea2aa64-54b5-4a72-8646-94432a05e1ba" />
+
+
+
+
+Back when I started it, this was typically just your antivirus, but they've come so far these days. You now have things like EDR and XDR that do real time monitoring of what a user is doing, and can block potential threats that aren't yet known. This is really critical for blocking something called zero day attacks, which are attacks that even the vendors don't know about.
+
+For example, if there is a flaw found within a Microsoft operating system, EDR and XDR can actually block these threats before even Microsoft know about it by detecting what is happening on an end user device.
+
+
+<img width="1030" height="563" alt="image" src="https://github.com/user-attachments/assets/fbf09f31-32d4-47d5-8271-0d356ef6e382" />
+
+
+# Servers / Virtualisation
+
+<img width="605" height="528" alt="image" src="https://github.com/user-attachments/assets/fbc38b93-9ca9-41fe-8d0a-224c42939dda" />
+
+<img width="623" height="581" alt="image" src="https://github.com/user-attachments/assets/80fa6bd6-b105-4fc1-b3e1-e2b0818c9c58" />
+
+
+>>> Unlike most workstations, the CPUs that you get in servers are much more powerful and there's many servers out there that support two, three or even four CPUs within them.
+>>>
+>>> Typically in most desktops and workstations these days, you're going to see potentially eight GBs of RAM, 16 gigs, 32 gigs, maybe even 64 if it's a really high powered workstation. But in servers you can get up to a terabyte. That's thousands of gigabytes of Ram for that temporary storage for running applications.
+
+
+<img width="502" height="512" alt="image" src="https://github.com/user-attachments/assets/06cd65a9-b6db-4d83-b379-808e60beb3a9" />
+
+
+<img width="493" height="450" alt="image" src="https://github.com/user-attachments/assets/5279de74-9269-452e-a917-967f6d65983f" />
+
+So more often than not, a server may only have one role, and you spin up an entirely new server to perform a different role so that you don't overload the server with too many things to do all at once, you're going to want to configure the network settings, the security, and the user accounts for that server, and install necessary software and updates.
+
+<img width="470" height="517" alt="image" src="https://github.com/user-attachments/assets/748a1b92-56fc-4938-b00d-d705bb7ee4fa" />
+
+<img width="514" height="466" alt="image" src="https://github.com/user-attachments/assets/a720a665-8fab-4e7b-a5d9-2db1491f51ea" />
+
+
+<img width="419" height="510" alt="image" src="https://github.com/user-attachments/assets/f853ddf4-ea1a-4baa-b7d2-198bc0c9471e" />
+
+<img width="967" height="501" alt="image" src="https://github.com/user-attachments/assets/1500a909-a0a4-421d-9693-c0cf72dc7085" />
+
+
+
+<img width="964" height="501" alt="image" src="https://github.com/user-attachments/assets/da2f64a2-9582-4f5d-90e1-367d0260683b" />
+
+
+
+
+<img width="552" height="282" alt="image" src="https://github.com/user-attachments/assets/a1c87349-a977-494c-ac3b-4d35e1cd2571" />
+
+Now let's make it very clear and simple. Virtualization essentially looks like this.
+
+You could have one physical server and multiple VMs running on that server. So you could have an Active Directory server, a file server, and a web server all running on the one physical piece of hardware.
+
+And those three virtual machines that we spoke about could each have a different set of resources, so they could be assigned various disk sizes, various amounts of processing power, various amounts of memory.
+
+
+# Storage
+
+<img width="502" height="453" alt="image" src="https://github.com/user-attachments/assets/e5ef8eed-da43-47f3-9eb8-39201846e3c6" />
+
+<img width="511" height="506" alt="image" src="https://github.com/user-attachments/assets/fed45731-e2d7-46d3-9376-fe09c3b645ac" />
+
+
+
+<img width="486" height="538" alt="image" src="https://github.com/user-attachments/assets/aebafee5-8bb9-460b-a773-dfd41f6f516e" />
+
+<img width="555" height="506" alt="image" src="https://github.com/user-attachments/assets/df1a620a-7821-4b4f-92fa-f356d2a4e57b" />
+
+
+<img width="382" height="447" alt="image" src="https://github.com/user-attachments/assets/306bbc2c-2b10-4af7-8413-22268840c838" />
+
+
+
+# What is RAID?
+
+<img width="970" height="415" alt="image" src="https://github.com/user-attachments/assets/fc0089fa-29e1-44e9-a8c9-52d920b8cf2e" />
+
+
+Whilst Raid can be a very effective way to improve data availability and prevent data loss, it is absolutely not a substitute for backups.
+
+
+<img width="896" height="406" alt="image" src="https://github.com/user-attachments/assets/292b9a46-3388-4185-83fb-b176047ca1f9" />
+
+
+There is absolutely no redundancy here, but it does provide 100% usable space. Usually, RAID 0 is only used in situations where you need that extra performance.
+
+By having two disks put into Raid zero, you do get a big performance boost to the read and write speeds of those disks.
+
+However, especially if you're using Raid zero, it's imperative that you have some sort of backup of that data as one disk failure is all that's between you and total data loss.
+
 
