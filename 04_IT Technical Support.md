@@ -271,3 +271,135 @@ They need to be installed on the web server that's hosting the website, and this
 
 
 # Backups and Disaster Recovery
+
+<img width="516" height="384" alt="image" src="https://github.com/user-attachments/assets/3099c381-5c45-4075-acb1-21a5918fc4f7" />
+
+
+<img width="766" height="506" alt="image" src="https://github.com/user-attachments/assets/a610012d-4456-40cf-9a3b-dbf9dff17332" />
+
+<img width="413" height="439" alt="image" src="https://github.com/user-attachments/assets/7d65d010-a8a3-4b5e-9c5e-5eb50a048b4d" />
+
+
+ <img width="942" height="404" alt="image" src="https://github.com/user-attachments/assets/c1fe64f9-21b3-4ff3-bf37-5906fb97ffcd" />
+
+
+
+<img width="539" height="280" alt="image" src="https://github.com/user-attachments/assets/d94ea91a-b623-4ca1-b61f-d31832ac0167" />
+
+
+It's not just enough to back up your data on premises.
+
+You also want to look at offsite and cloud backups.
+
+This allows you to store copies of the data in offsite locations or cloud environments.
+
+It's going to ensure that data redundancy and protection against physical disasters.
+
+We spoke about natural disasters occurring.
+
+Let's say, for example, a flood if you're running servers in your office and the backups are also located in your office, and there is some sort of flood that renders all of that equipment inoperable, then you've essentially just lost everything.
+
+But by keeping it at a different geographical location, you can reduce the risk of that happening because it's very unlikely.
+
+Let's say, for example, you're hosting some servers in Los Angeles and your offsite backups are going to New York City.
+
+It's highly unlikely that both of those locations are going to be affected at once by some sort of natural disaster.
+
+More often than not, you want to keep those types of backups air gapped, however, so that something like ransomware can't infect both the Los Angeles office and the New York City office.
+
+
+<img width="568" height="474" alt="image" src="https://github.com/user-attachments/assets/f767ffeb-6604-4596-b0b8-d46d8138528a" />
+
+
+<img width="655" height="485" alt="image" src="https://github.com/user-attachments/assets/405bc26b-5e51-4c38-b81d-b626610d66f0" />
+
+
+<img width="582" height="486" alt="image" src="https://github.com/user-attachments/assets/d3a5b452-cacf-417d-afb4-d3cf56af188a" />
+
+
+
+# Email and Mail Filtering
+
+
+Email is going to play a major part in your technical support role. Both you are going to use emails to contact your end users, perhaps through a ticketing system or through a platform like Microsoft Outlook, but you're also going to be assisting the end users with their emails, whether that be the emails that they're sending from their personal machines.
+
+Perhaps they've set up an application that automatically their emails their customers. Let's say, for example, you're working for a company that does sales and on their website, every time someone purchases something, they're going to get an email with the purchase receipt. These are all the various things that you could be looking at as a technical support specialist.
+
+
+<img width="550" height="445" alt="image" src="https://github.com/user-attachments/assets/b02a3c58-63ba-42dc-9486-258312af34f6" />
+
+
+<img width="479" height="439" alt="image" src="https://github.com/user-attachments/assets/6145777c-b086-4880-be46-64ad8199817e" />
+
+
+<img width="961" height="509" alt="image" src="https://github.com/user-attachments/assets/d9245e75-aaa7-4c2a-92a6-ce7a7a4cc9a0" />
+
+
+
+The sending side is often using SMTP, Simple Mail Transfer Protocol, to send the messages to the recipient's mail server. If you're working in an on premises environment and you've got a Microsoft exchange server, your outlook client will go ahead and be connected to that Exchange server.
+
+When you send the mail, it's going to send the mail over to the server. That server is going to send it out to the internet to whoever is receiving it. And then on the receiving end, the recipient's email client retrieves the email using, let's say, for example, exchange ActiveSync or maybe iMap or Pop3 and downloads it to their email client.
+
+I know everyone out there seems to think that email is sort of this complex system, but it really isn't. All you need is your email clients, your email servers, and these protocols that we've talked about. And that's enough to get you up and running.
+
+
+
+<img width="918" height="421" alt="image" src="https://github.com/user-attachments/assets/42650482-de50-4eea-9327-70f6a090fd54" />
+
+
+<img width="920" height="468" alt="image" src="https://github.com/user-attachments/assets/18bfd681-a1c0-4f32-be75-e41de412c372" />
+
+
+<img width="916" height="451" alt="image" src="https://github.com/user-attachments/assets/3c571c44-395e-459d-ab91-ac69e25e81f5" />
+
+
+<img width="864" height="477" alt="image" src="https://github.com/user-attachments/assets/ae822f57-c41f-4cb4-93e5-f7ecc421040b" />
+
+
+<img width="942" height="492" alt="image" src="https://github.com/user-attachments/assets/a9776181-3f34-4274-901a-b4742a959e7f" />
+
+
+And lastly, we always want to educate our users to recognize and report phishing attempts that they receive, as it's ultimately them that are the barrier between an attack on our network and our network being safe.
+
+
+<img width="938" height="501" alt="image" src="https://github.com/user-attachments/assets/3d77e330-5a7b-4523-8831-9241c9bc7383" />
+
+
+When we look at implementing email filtering solutions, you can implement them on premises.
+
+This often offers more control, but requires significant maintenance and up front costs.
+
+Or we can look at cloud based email filtering solutions.
+
+These are often easier to deploy and maintain with scalable costs.
+
+Some examples are Microsoft Defender for 365 and Google Workspace Security.
+
+
+<img width="897" height="408" alt="image" src="https://github.com/user-attachments/assets/858c0983-8896-4678-b0bb-53ecac723537" />
+
+<img width="848" height="473" alt="image" src="https://github.com/user-attachments/assets/aee21a0f-201d-44b2-8ca0-512ce7639db4" />
+
+
+
+# FILE SHARING
+
+
+<img width="890" height="446" alt="image" src="https://github.com/user-attachments/assets/b306983a-9fee-472f-9e10-91127a20c778" />
+
+
+If you've got a bunch of end users at your office, let's say about 50, and they're all collaborating on different folders and files.
+
+You want to store these on a central file server, so that multiple people can work on the same folders and files at once, and that they can all access it when they need to.
+
+
+<img width="736" height="524" alt="image" src="https://github.com/user-attachments/assets/8cbc4fc9-616b-41ae-877f-8ae2c29ad4bb" />
+
+
+The more commonly used file servers these days are run on Microsoft Windows servers and Linux servers, but there are specialized network devices and specialized vendors out there that provide their own products for businesses in order to have these file servers. These are often highly available and can be scalable up to absolutely insane amounts of storage.
+
+
+<img width="626" height="451" alt="image" src="https://github.com/user-attachments/assets/7f2d20e7-ef62-4807-8fa2-77fcfa91ada9" />
+
+
+<img width="535" height="512" alt="image" src="https://github.com/user-attachments/assets/36186e34-9b6a-4de3-abb9-41cace97d3e0" />
