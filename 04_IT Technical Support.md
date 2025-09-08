@@ -677,3 +677,40 @@ However, especially if you're using Raid zero, it's imperative that you have som
 >> When we talk about load balancing again, let's say you've got multiple access points all throughout your office. What you want to be able to do is as those users move around the office, their workstations, let's
 say, for example, they're carrying a laptop with them. Their laptop is going to connect from one access point to another as they get closer and closer towards the different access points. It may be on access point one, and as soon as they move in range of access point two, it automatically connects over there. And this is what those wireless controllers really allow you to do. If you've got multiple access points all within the same location, it's going to evenly distribute them across the different access points so that one of those units doesn't get overloaded and your end users start to notice maybe a slowdown in bandwidth.
 
+>> When we talk about security, of course we have to talk about the passwords that come with Wi-Fi. And more often than not, in enterprise environments, you're going to be doing away with passwords and instead be installing certificates on the machines in order to connect to the wireless. But of course, with this centralized pane, it's going to be much easier to manage this and firmware updates.
+
+
+
+<img width="493" height="502" alt="image" src="https://github.com/user-attachments/assets/4fc1756e-caa8-4f97-bbbd-7f0fe55d8d1b" />
+
+
+<img width="502" height="498" alt="image" src="https://github.com/user-attachments/assets/f2de3b2b-8cca-4e49-a442-8ad17a18090f" />
+
+
+If you've got an end user streaming a bunch of music or a bunch of videos and another end user on a video call, you of course are going to want to prioritize the traffic of the video call rather than the other users videos and music.
+
+<img width="942" height="472" alt="image" src="https://github.com/user-attachments/assets/f71c7384-e640-4e49-9003-4ff48b690351" />
+
+
+# Workstations / Standard Operating Environments
+
+<img width="464" height="449" alt="image" src="https://github.com/user-attachments/assets/53a148a7-a106-4cb9-afb9-9f032874a182" />
+
+
+And I just want to be clear, workstations don't have to just be the tower PCs either. Workstations can be your typical laptops, your tablets, anything that's designed for business use.
+
+
+<img width="920" height="490" alt="image" src="https://github.com/user-attachments/assets/9b978eb4-aeee-4225-8ec5-b2a34cdb4c6a" />
+
+
+So a good example of what an SOA would look like is essentially just your baseline image.
+
+When you're rolling out new PCs, are these PCs going to be on Windows 10 or Windows 11? What version of Windows 11?
+
+What software and policies are going to be applied to these by default? These are all the types of things you're going to need to think about when you're coming up with a standard operating environment, or even updating one.
+
+
+
+
+
+
