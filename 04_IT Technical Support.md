@@ -619,3 +619,61 @@ By having two disks put into Raid zero, you do get a big performance boost to th
 However, especially if you're using Raid zero, it's imperative that you have some sort of backup of that data as one disk failure is all that's between you and total data loss.
 
 
+<img width="950" height="417" alt="image" src="https://github.com/user-attachments/assets/b14fef22-9d72-4ee7-9f81-9bd276d5129b" />
+
+
+<img width="1005" height="513" alt="image" src="https://github.com/user-attachments/assets/f2865f76-6704-4ea9-bd76-bc93c1037d63" />
+
+
+<img width="1000" height="441" alt="image" src="https://github.com/user-attachments/assets/1864991c-05a9-48c2-a5df-70361b0f5869" />
+
+<img width="998" height="400" alt="image" src="https://github.com/user-attachments/assets/f4c96b60-06c0-442f-95d7-be1fe7f04420" />
+
+
+
+<img width="928" height="384" alt="image" src="https://github.com/user-attachments/assets/f91df0eb-2017-4020-858d-3f783aca2304" />
+
+
+
+<img width="989" height="461" alt="image" src="https://github.com/user-attachments/assets/898a2a09-6e1a-4d78-a51c-0257fb2f773a" />
+
+
+
+# Voice / Telephony
+
+
+<img width="476" height="513" alt="image" src="https://github.com/user-attachments/assets/01a3e577-f24a-4c4d-98ec-17ff95d4b426" />
+
+<img width="505" height="476" alt="image" src="https://github.com/user-attachments/assets/ef198d8d-13b0-440d-92fe-515e9d1cfc96" />
+
+
+
+<img width="845" height="491" alt="image" src="https://github.com/user-attachments/assets/8aeb130f-0d73-406f-97ef-816cdad9c84c" />
+
+<img width="898" height="493" alt="image" src="https://github.com/user-attachments/assets/8ced9e61-f5d0-4e15-b9db-271c450245f9" />
+
+<img width="479" height="505" alt="image" src="https://github.com/user-attachments/assets/c2169601-31bc-4134-86f3-259054d249e9" />
+
+<img width="991" height="509" alt="image" src="https://github.com/user-attachments/assets/fffa2c50-7535-4825-8c67-87d57acaff00" />
+
+<img width="889" height="413" alt="image" src="https://github.com/user-attachments/assets/1aad9c52-3f49-4d49-ae5f-6f2b45307032" />
+
+<img width="935" height="503" alt="image" src="https://github.com/user-attachments/assets/0767646a-e16c-497e-af9c-407d6c07464e" />
+
+
+
+
+# Wireless Controllers and Access Points
+
+
+<img width="538" height="382" alt="image" src="https://github.com/user-attachments/assets/396d0acb-08d7-4a52-8f49-d9d2e86f0016" />
+
+<img width="576" height="523" alt="image" src="https://github.com/user-attachments/assets/3b18b783-65e4-4b29-8811-6c5602815935" />
+
+
+
+>>> When we talk about centralized management, your office may have anywhere from two to maybe 200 access points throughout it, and managing each of those individually would just be a nightmare for any sort of system administrator. Instead what we have is some sort of centralized management portal, like I mentioned, some sort of web UI that you can adopt all of those access points into and manage from there.
+
+>> When we talk about load balancing again, let's say you've got multiple access points all throughout your office. What you want to be able to do is as those users move around the office, their workstations, let's
+say, for example, they're carrying a laptop with them. Their laptop is going to connect from one access point to another as they get closer and closer towards the different access points. It may be on access point one, and as soon as they move in range of access point two, it automatically connects over there. And this is what those wireless controllers really allow you to do. If you've got multiple access points all within the same location, it's going to evenly distribute them across the different access points so that one of those units doesn't get overloaded and your end users start to notice maybe a slowdown in bandwidth.
+
